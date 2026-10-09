@@ -26,6 +26,10 @@ resources:
             permission: CAN_CONNECT_AND_CREATE
         - name: vol-call-transcripts
           uc_securable: {securable_full_name: "fe_demo_catalog.northwind_pipeline.call_transcripts", securable_type: VOLUME, permission: READ_VOLUME}
+        - name: llm
+          serving_endpoint:
+            name: databricks-meta-llama-3-3-70b-instruct
+            permission: CAN_QUERY
 
 targets:
   fevm:

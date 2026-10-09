@@ -14,6 +14,7 @@ root (seed 42); there is no customer data.
 | `verify-results.txt` | `verify.sql` ground-truth query results. The planted findings come back as designed: Solution is the slowest funnel stage, the ERP integration gap concentrates in NetSuite, win rate varies by lead source, inbound demand spikes at the 9/30 launch, and anchor deal OPP-01042 is lost to the ERP gap. |
 | `lakebase-evidence.txt` | Lakebase (managed Postgres) serving + write-back: a row count of the synced `deals_online` table, a single-deal point lookup (what the app's deal card runs), the write-back tables, and an insert-then-read-back roundtrip for a saved what-if scenario and a flagged deal. |
 | `genie-qa.md` | Two live questions to the Genie agent (real model output). Each shows the governed SQL Genie generated against the metric views and its natural-language answer, both grounded in the planted findings. |
+| `ai-next-step-sample.md` | A real call to the Databricks-hosted foundation model `databricks-meta-llama-3-3-70b-instruct`, using the exact prompt the app's `ai_next_step()` builds for a stalled deal (OPP-01042). Shows the grounding (deal metrics + transcript) and the model's drafted next step, with token usage. |
 
 To reproduce: set your own catalog and workspace profile (see the root `README.md`), then run
 `./rebuild.sh`.

@@ -14,3 +14,5 @@ env:
     value: "northwind"
   - name: DEALS_TABLE
     value: "northwind_pipeline.deals_online"
+  - name: FM_ENDPOINT
+    valueFrom: "llm"
