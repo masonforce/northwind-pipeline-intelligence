@@ -1,0 +1,15 @@
+resources:
+  pipelines:
+    northwind_pipeline_intel:
+      name: "northwind_pipeline_intel"
+      catalog: "fe_demo_catalog"
+      schema: "northwind_pipeline"
+      serverless: true
+      continuous: false
+      channel: "CURRENT"
+      configuration:
+        landing: "/Volumes/fe_demo_catalog/northwind_pipeline/landing"
+        landing_sfdc: "/Volumes/fe_demo_catalog/northwind_pipeline/landing_sfdc"
+      libraries:
+        - glob:
+            include: ../transformations/**

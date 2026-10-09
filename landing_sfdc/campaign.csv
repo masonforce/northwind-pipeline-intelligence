@@ -1,0 +1,11 @@
+Id,Name,Type,Status,StartDate,BudgetedCost,IsActive,Northwind_Campaign_Key__c,SystemModstamp
+701ZIl8BDI4kZeIY2U,Northwind Commercial Card Launch Webinar,Webinar,In Progress,2026-09-15,85000,true,CMP-01,2026-09-15T14:47:00.000+0000
+7018ezsUPGXQdLYA21,CFO Roundtable Series,Event,In Progress,2026-05-01,140000,true,CMP-02,2026-05-01T21:07:00.000+0000
+701T21BJxTPDHhRIWX,Paid Search - Expense Management,Paid Search,In Progress,2026-04-01,220000,true,CMP-03,2026-04-01T15:38:00.000+0000
+701cIT88uarH8HtQBK,Paid Search - AP Automation,Paid Search,In Progress,2026-07-01,90000,true,CMP-04,2026-07-01T19:29:00.000+0000
+701i6WOaXn7BrVeALK,NetSuite Partner Co-Marketing,Partner,In Progress,2026-04-15,60000,true,CMP-05,2026-04-15T13:02:00.000+0000
+701p8gL94ZyuNmmASE,Middle Market Summit 2026,Event,In Progress,2026-06-10,175000,true,CMP-06,2026-06-10T13:32:00.000+0000
+701uotkhkmK38KWAAZ,Bill Pay Beta Invite,Email,In Progress,2026-06-15,15000,true,CMP-07,2026-06-15T22:06:00.000+0000
+701uwa7uSewZb7GAIS,Email Nurture - Corporate Card Upgrade,Email,In Progress,2025-11-01,25000,true,CMP-08,2025-11-01T19:41:00.000+0000
+701uAT2rgbKrRVlQBN,LinkedIn - Spend Control,Paid Social,In Progress,2026-08-01,70000,true,CMP-09,2026-08-01T15:26:00.000+0000
+7015JxNS2qPu4hUQGR,Referral Program Q3,Referral,In Progress,2026-07-01,30000,true,CMP-10,2026-07-01T22:53:00.000+0000

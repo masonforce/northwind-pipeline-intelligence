@@ -1,0 +1,271 @@
+call_id,primary_theme,secondary_theme
+CALL-0001,ERP integration,Pricing & rewards
+CALL-0002,ERP integration,Onboarding & implementation
+CALL-0003,ERP integration,Pricing & rewards
+CALL-0004,ERP integration,Approval workflows
+CALL-0005,Pricing & rewards,Onboarding & implementation
+CALL-0006,Pricing & rewards,ERP integration
+CALL-0007,ERP integration,Onboarding & implementation
+CALL-0008,Expense policy controls,Onboarding & implementation
+CALL-0009,Vendor card acceptance,Expense policy controls
+CALL-0010,Expense policy controls,Pricing & rewards
+CALL-0011,ERP integration,Approval workflows
+CALL-0012,ERP integration,Pricing & rewards
+CALL-0013,Bill Pay interest,ERP integration
+CALL-0014,ERP integration,Expense policy controls
+CALL-0015,Pricing & rewards,ERP integration
+CALL-0016,ERP integration,Approval workflows
+CALL-0017,ERP integration,Expense policy controls
+CALL-0018,Expense policy controls,Pricing & rewards
+CALL-0019,Bill Pay interest,Expense policy controls
+CALL-0020,ERP integration,Onboarding & implementation
+CALL-0021,ERP integration,Pricing & rewards
+CALL-0022,ERP integration,Expense policy controls
+CALL-0023,Approval workflows,Onboarding & implementation
+CALL-0024,Pricing & rewards,Bill Pay interest
+CALL-0025,Onboarding & implementation,Vendor card acceptance
+CALL-0026,Pricing & rewards,Bill Pay interest
+CALL-0027,Pricing & rewards,Onboarding & implementation
+CALL-0028,Expense policy controls,Vendor card acceptance
+CALL-0029,Expense policy controls,Vendor card acceptance
+CALL-0030,Bill Pay interest,Onboarding & implementation
+CALL-0031,Pricing & rewards,Approval workflows
+CALL-0032,ERP integration,Vendor card acceptance
+CALL-0033,ERP integration,Onboarding & implementation
+CALL-0034,Vendor card acceptance,ERP integration
+CALL-0035,Pricing & rewards,ERP integration
+CALL-0036,Pricing & rewards,Expense policy controls
+CALL-0037,ERP integration,Vendor card acceptance
+CALL-0038,ERP integration,Pricing & rewards
+CALL-0039,Expense policy controls,Pricing & rewards
+CALL-0040,Vendor card acceptance,Approval workflows
+CALL-0041,Expense policy controls,Vendor card acceptance
+CALL-0042,Bill Pay interest,Onboarding & implementation
+CALL-0043,Vendor card acceptance,Bill Pay interest
+CALL-0044,Onboarding & implementation,Approval workflows
+CALL-0045,Pricing & rewards,ERP integration
+CALL-0046,ERP integration,Vendor card acceptance
+CALL-0047,Approval workflows,Bill Pay interest
+CALL-0048,Expense policy controls,Approval workflows
+CALL-0049,ERP integration,Bill Pay interest
+CALL-0050,ERP integration,Bill Pay interest
+CALL-0051,Pricing & rewards,Bill Pay interest
+CALL-0052,ERP integration,Approval workflows
+CALL-0053,Pricing & rewards,Expense policy controls
+CALL-0054,Pricing & rewards,Vendor card acceptance
+CALL-0055,Pricing & rewards,Vendor card acceptance
+CALL-0056,Pricing & rewards,Expense policy controls
+CALL-0057,Pricing & rewards,Approval workflows
+CALL-0058,ERP integration,Onboarding & implementation
+CALL-0059,ERP integration,Approval workflows
+CALL-0060,Vendor card acceptance,Pricing & rewards
+CALL-0061,Onboarding & implementation,Expense policy controls
+CALL-0062,ERP integration,Expense policy controls
+CALL-0063,ERP integration,Vendor card acceptance
+CALL-0064,ERP integration,Onboarding & implementation
+CALL-0065,ERP integration,Pricing & rewards
+CALL-0066,Pricing & rewards,Onboarding & implementation
+CALL-0067,ERP integration,Approval workflows
+CALL-0068,Approval workflows,Pricing & rewards
+CALL-0069,Approval workflows,Expense policy controls
+CALL-0070,ERP integration,Onboarding & implementation
+CALL-0071,Pricing & rewards,Bill Pay interest
+CALL-0072,Approval workflows,Bill Pay interest
+CALL-0073,ERP integration,Onboarding & implementation
+CALL-0074,ERP integration,Pricing & rewards
+CALL-0075,Vendor card acceptance,ERP integration
+CALL-0076,Pricing & rewards,Expense policy controls
+CALL-0077,Pricing & rewards,Onboarding & implementation
+CALL-0078,Onboarding & implementation,Approval workflows
+CALL-0079,ERP integration,Onboarding & implementation
+CALL-0080,ERP integration,Onboarding & implementation
+CALL-0081,ERP integration,Expense policy controls
+CALL-0082,Vendor card acceptance,ERP integration
+CALL-0083,Vendor card acceptance,Onboarding & implementation
+CALL-0084,Bill Pay interest,Pricing & rewards
+CALL-0085,Vendor card acceptance,Expense policy controls
+CALL-0086,ERP integration,Expense policy controls
+CALL-0087,ERP integration,Pricing & rewards
+CALL-0088,ERP integration,Approval workflows
+CALL-0089,ERP integration,Pricing & rewards
+CALL-0090,ERP integration,Bill Pay interest
+CALL-0091,ERP integration,Approval workflows
+CALL-0092,ERP integration,Onboarding & implementation
+CALL-0093,ERP integration,Approval workflows
+CALL-0094,Onboarding & implementation,Vendor card acceptance
+CALL-0095,ERP integration,Onboarding & implementation
+CALL-0096,Pricing & rewards,Expense policy controls
+CALL-0097,Pricing & rewards,Approval workflows
+CALL-0098,Pricing & rewards,ERP integration
+CALL-0099,Pricing & rewards,Onboarding & implementation
+CALL-0100,Approval workflows,Vendor card acceptance
+CALL-0101,ERP integration,Pricing & rewards
+CALL-0102,Pricing & rewards,Bill Pay interest
+CALL-0103,Bill Pay interest,Vendor card acceptance
+CALL-0104,ERP integration,Vendor card acceptance
+CALL-0105,Expense policy controls,Pricing & rewards
+CALL-0106,ERP integration,Expense policy controls
+CALL-0107,Vendor card acceptance,Onboarding & implementation
+CALL-0108,ERP integration,Expense policy controls
+CALL-0109,ERP integration,Onboarding & implementation
+CALL-0110,Expense policy controls,Onboarding & implementation
+CALL-0111,ERP integration,Vendor card acceptance
+CALL-0112,Vendor card acceptance,Approval workflows
+CALL-0113,Vendor card acceptance,Onboarding & implementation
+CALL-0114,Pricing & rewards,Vendor card acceptance
+CALL-0115,Vendor card acceptance,Expense policy controls
+CALL-0116,Vendor card acceptance,Onboarding & implementation
+CALL-0117,Vendor card acceptance,ERP integration
+CALL-0118,ERP integration,Expense policy controls
+CALL-0119,Bill Pay interest,Vendor card acceptance
+CALL-0120,Vendor card acceptance,ERP integration
+CALL-0121,Bill Pay interest,ERP integration
+CALL-0122,Onboarding & implementation,Vendor card acceptance
+CALL-0123,Pricing & rewards,Expense policy controls
+CALL-0124,Approval workflows,Pricing & rewards
+CALL-0125,Expense policy controls,Vendor card acceptance
+CALL-0126,Pricing & rewards,Vendor card acceptance
+CALL-0127,Pricing & rewards,Expense policy controls
+CALL-0128,Pricing & rewards,Bill Pay interest
+CALL-0129,Bill Pay interest,Pricing & rewards
+CALL-0130,Onboarding & implementation,ERP integration
+CALL-0131,Vendor card acceptance,Pricing & rewards
+CALL-0132,Vendor card acceptance,ERP integration
+CALL-0133,Pricing & rewards,Onboarding & implementation
+CALL-0134,Pricing & rewards,Vendor card acceptance
+CALL-0135,Onboarding & implementation,Vendor card acceptance
+CALL-0136,Approval workflows,Pricing & rewards
+CALL-0137,Onboarding & implementation,ERP integration
+CALL-0138,ERP integration,Bill Pay interest
+CALL-0139,ERP integration,Vendor card acceptance
+CALL-0140,Onboarding & implementation,Expense policy controls
+CALL-0141,ERP integration,Expense policy controls
+CALL-0142,ERP integration,Expense policy controls
+CALL-0143,ERP integration,Approval workflows
+CALL-0144,Vendor card acceptance,Onboarding & implementation
+CALL-0145,ERP integration,Vendor card acceptance
+CALL-0146,Pricing & rewards,Onboarding & implementation
+CALL-0147,Vendor card acceptance,Approval workflows
+CALL-0148,Bill Pay interest,Expense policy controls
+CALL-0149,ERP integration,Expense policy controls
+CALL-0150,ERP integration,Expense policy controls
+CALL-0151,Expense policy controls,Bill Pay interest
+CALL-0152,Pricing & rewards,ERP integration
+CALL-0153,Onboarding & implementation,Bill Pay interest
+CALL-0154,Pricing & rewards,Approval workflows
+CALL-0155,Vendor card acceptance,Bill Pay interest
+CALL-0156,Vendor card acceptance,Onboarding & implementation
+CALL-0157,Approval workflows,Bill Pay interest
+CALL-0158,Pricing & rewards,Expense policy controls
+CALL-0159,Expense policy controls,Bill Pay interest
+CALL-0160,ERP integration,Vendor card acceptance
+CALL-0161,ERP integration,Approval workflows
+CALL-0162,ERP integration,Vendor card acceptance
+CALL-0163,Pricing & rewards,Approval workflows
+CALL-0164,Approval workflows,Pricing & rewards
+CALL-0165,Bill Pay interest,Vendor card acceptance
+CALL-0166,Onboarding & implementation,Approval workflows
+CALL-0167,ERP integration,Vendor card acceptance
+CALL-0168,Approval workflows,ERP integration
+CALL-0169,Approval workflows,Bill Pay interest
+CALL-0170,Onboarding & implementation,Approval workflows
+CALL-0171,Approval workflows,Expense policy controls
+CALL-0172,Onboarding & implementation,Pricing & rewards
+CALL-0173,Vendor card acceptance,ERP integration
+CALL-0174,Expense policy controls,Vendor card acceptance
+CALL-0175,Vendor card acceptance,Pricing & rewards
+CALL-0176,Onboarding & implementation,Vendor card acceptance
+CALL-0177,Onboarding & implementation,Approval workflows
+CALL-0178,ERP integration,Pricing & rewards
+CALL-0179,Pricing & rewards,Vendor card acceptance
+CALL-0180,Pricing & rewards,Vendor card acceptance
+CALL-0181,Expense policy controls,Bill Pay interest
+CALL-0182,Approval workflows,Onboarding & implementation
+CALL-0183,Onboarding & implementation,ERP integration
+CALL-0184,ERP integration,Bill Pay interest
+CALL-0185,Pricing & rewards,Bill Pay interest
+CALL-0186,ERP integration,Pricing & rewards
+CALL-0187,Vendor card acceptance,Expense policy controls
+CALL-0188,ERP integration,Expense policy controls
+CALL-0189,ERP integration,Expense policy controls
+CALL-0190,Vendor card acceptance,Bill Pay interest
+CALL-0191,ERP integration,Onboarding & implementation
+CALL-0192,Approval workflows,ERP integration
+CALL-0193,ERP integration,Onboarding & implementation
+CALL-0194,Onboarding & implementation,Pricing & rewards
+CALL-0195,Bill Pay interest,ERP integration
+CALL-0196,Vendor card acceptance,ERP integration
+CALL-0197,Expense policy controls,Pricing & rewards
+CALL-0198,Onboarding & implementation,Vendor card acceptance
+CALL-0199,Pricing & rewards,ERP integration
+CALL-0200,Pricing & rewards,Onboarding & implementation
+CALL-0201,Onboarding & implementation,Approval workflows
+CALL-0202,Expense policy controls,Approval workflows
+CALL-0203,Bill Pay interest,Vendor card acceptance
+CALL-0204,Expense policy controls,Pricing & rewards
+CALL-0205,Vendor card acceptance,Bill Pay interest
+CALL-0206,Expense policy controls,Onboarding & implementation
+CALL-0207,Vendor card acceptance,Onboarding & implementation
+CALL-0208,Expense policy controls,Onboarding & implementation
+CALL-0209,Expense policy controls,ERP integration
+CALL-0210,Pricing & rewards,ERP integration
+CALL-0211,Onboarding & implementation,ERP integration
+CALL-0212,ERP integration,Onboarding & implementation
+CALL-0213,Expense policy controls,Bill Pay interest
+CALL-0214,Vendor card acceptance,Approval workflows
+CALL-0215,Onboarding & implementation,Approval workflows
+CALL-0216,ERP integration,Onboarding & implementation
+CALL-0217,Expense policy controls,Pricing & rewards
+CALL-0218,Vendor card acceptance,ERP integration
+CALL-0219,Onboarding & implementation,Vendor card acceptance
+CALL-0220,Expense policy controls,ERP integration
+CALL-0221,Expense policy controls,Bill Pay interest
+CALL-0222,Vendor card acceptance,Bill Pay interest
+CALL-0223,Pricing & rewards,Bill Pay interest
+CALL-0224,Pricing & rewards,ERP integration
+CALL-0225,ERP integration,Pricing & rewards
+CALL-0226,Expense policy controls,ERP integration
+CALL-0227,ERP integration,Bill Pay interest
+CALL-0228,ERP integration,Approval workflows
+CALL-0229,Expense policy controls,ERP integration
+CALL-0230,Approval workflows,ERP integration
+CALL-0231,ERP integration,Vendor card acceptance
+CALL-0232,ERP integration,Onboarding & implementation
+CALL-0233,ERP integration,Vendor card acceptance
+CALL-0234,Onboarding & implementation,Expense policy controls
+CALL-0235,Expense policy controls,Vendor card acceptance
+CALL-0236,Bill Pay interest,ERP integration
+CALL-0237,Onboarding & implementation,Bill Pay interest
+CALL-0238,Approval workflows,Onboarding & implementation
+CALL-0239,Pricing & rewards,Bill Pay interest
+CALL-0240,Expense policy controls,Approval workflows
+CALL-0241,ERP integration,Approval workflows
+CALL-0242,ERP integration,Vendor card acceptance
+CALL-0243,Approval workflows,Expense policy controls
+CALL-0244,Vendor card acceptance,Approval workflows
+CALL-0245,Bill Pay interest,Expense policy controls
+CALL-0246,Onboarding & implementation,Vendor card acceptance
+CALL-0247,Onboarding & implementation,Vendor card acceptance
+CALL-0248,Bill Pay interest,ERP integration
+CALL-0249,Approval workflows,Vendor card acceptance
+CALL-0250,Expense policy controls,Approval workflows
+CALL-0251,ERP integration,Vendor card acceptance
+CALL-0252,ERP integration,Approval workflows
+CALL-0253,ERP integration,Pricing & rewards
+CALL-0254,Bill Pay interest,Approval workflows
+CALL-0255,ERP integration,Approval workflows
+CALL-0256,Expense policy controls,Onboarding & implementation
+CALL-0257,ERP integration,Approval workflows
+CALL-0258,Pricing & rewards,Onboarding & implementation
+CALL-0259,ERP integration,Approval workflows
+CALL-0260,ERP integration,Onboarding & implementation
+CALL-0261,Onboarding & implementation,Bill Pay interest
+CALL-0262,Pricing & rewards,Bill Pay interest
+CALL-0263,ERP integration,Vendor card acceptance
+CALL-0264,Onboarding & implementation,ERP integration
+CALL-0265,Approval workflows,Expense policy controls
+CALL-0266,ERP integration,Approval workflows
+CALL-0267,Bill Pay interest,ERP integration
+CALL-0268,Pricing & rewards,Bill Pay interest
+CALL-0269,Vendor card acceptance,Onboarding & implementation
+CALL-0270,Approval workflows,ERP integration

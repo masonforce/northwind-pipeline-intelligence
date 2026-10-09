@@ -1,0 +1,601 @@
+account_id,account_name,industry,revenue_band,employee_count,hq_state,erp_system,existing_northwind_customer,bill_pay_beta
+ACCT-0001,Brightstone Logistics,Manufacturing,$50M-$250M,428,TX,Microsoft Dynamics 365,false,false
+ACCT-0002,Riverbendstone Distribution,Professional Services,$50M-$250M,295,FL,NetSuite,false,false
+ACCT-0003,Riverbendpoint Industries,Construction,$50M-$250M,629,FL,QuickBooks Online,true,false
+ACCT-0004,Northridge Industries,Healthcare,$50M-$250M,359,FL,Other,true,false
+ACCT-0005,Graniteline Health Partners,Healthcare,$10M-$50M,204,IL,Microsoft Dynamics 365,false,false
+ACCT-0006,Riverbendstone Consulting Group,Healthcare,$10M-$50M,210,CO,SAP Business One,true,false
+ACCT-0007,Ironstone Logistics,Retail,$50M-$250M,496,CA,SAP Business One,false,false
+ACCT-0008,Beaconworks Manufacturing,Healthcare,$50M-$250M,366,GA,QuickBooks Online,false,false
+ACCT-0009,Highlandstone Distribution,Construction,$50M-$250M,946,FL,NetSuite,true,false
+ACCT-0010,Brightcrest Systems,Retail,$50M-$250M,986,OH,NetSuite,false,false
+ACCT-0011,Lakesideline Builders,Construction,$10M-$50M,233,GA,NetSuite,true,false
+ACCT-0012,Brightpath Engineering,Manufacturing,$10M-$50M,240,WA,QuickBooks Online,false,false
+ACCT-0013,Atlasgate Consulting Group,Manufacturing,$10M-$50M,180,MA,NetSuite,true,false
+ACCT-0014,Summitridge Advisors,Wholesale & Distribution,$10M-$50M,158,CO,NetSuite,true,false
+ACCT-0015,Meridiancrest Builders,Retail,$250M-$1B,947,NC,Microsoft Dynamics 365,false,false
+ACCT-0016,Riverbendworks Advisors,Healthcare,$10M-$50M,161,TX,QuickBooks Online,false,false
+ACCT-0017,Unionworks Labs,Construction,$50M-$250M,1134,CA,SAP Business One,true,false
+ACCT-0018,Brightcrest Distribution,Healthcare,$10M-$50M,245,TX,QuickBooks Online,false,false
+ACCT-0019,Keystonefield Distribution,Professional Services,$10M-$50M,78,GA,SAP Business One,false,false
+ACCT-0020,Copperpoint Logistics,Construction,$10M-$50M,70,CA,Microsoft Dynamics 365,false,false
+ACCT-0021,Riverbendridge Engineering,Construction,$50M-$250M,369,IL,QuickBooks Online,false,false
+ACCT-0022,Ironcrest Industries,Wholesale & Distribution,$50M-$250M,519,NJ,Other,false,false
+ACCT-0023,Meridiancrest Manufacturing,Manufacturing,$10M-$50M,66,GA,NetSuite,false,false
+ACCT-0024,Oaklinepoint Logistics,Wholesale & Distribution,$10M-$50M,65,FL,NetSuite,true,false
+ACCT-0025,Lakesidestone Labs,Wholesale & Distribution,$10M-$50M,174,FL,QuickBooks Online,false,false
+ACCT-0026,Oaklinegate Manufacturing,Technology,$10M-$50M,154,FL,NetSuite,false,false
+ACCT-0027,Redwoodline Consulting Group,Wholesale & Distribution,$50M-$250M,255,NC,Sage Intacct,false,false
+ACCT-0028,Blueline Industries,Retail,$10M-$50M,77,FL,NetSuite,true,false
+ACCT-0029,Cedarline Engineering,Manufacturing,$10M-$50M,69,MA,Microsoft Dynamics 365,false,false
+ACCT-0030,Summitfield Advisors,Retail,$250M-$1B,960,CA,SAP Business One,false,false
+ACCT-0031,Harborline Manufacturing,Retail,$50M-$250M,610,NY,NetSuite,true,false
+ACCT-0032,Copperline Industries,Retail,$250M-$1B,3176,NC,Microsoft Dynamics 365,true,false
+ACCT-0033,Oaklinecrest Logistics,Professional Services,$50M-$250M,251,CO,QuickBooks Online,false,false
+ACCT-0034,Keystoneridge Logistics,Professional Services,$250M-$1B,4387,TX,NetSuite,true,false
+ACCT-0035,Silverline Health Partners,Construction,$250M-$1B,1908,CO,Sage Intacct,false,false
+ACCT-0036,Atlasgate Distribution,Healthcare,$50M-$250M,409,NC,Microsoft Dynamics 365,true,false
+ACCT-0037,Beaconridge Advisors,Technology,$50M-$250M,523,OH,SAP Business One,true,false
+ACCT-0038,Westgategate Health Partners,Manufacturing,$10M-$50M,179,IL,NetSuite,true,false
+ACCT-0039,Granitepoint Supply Co,Technology,$10M-$50M,189,AZ,QuickBooks Online,false,false
+ACCT-0040,Brightcrest Logistics,Construction,$50M-$250M,506,NC,NetSuite,false,false
+ACCT-0041,Prairiestone Health Partners,Manufacturing,$50M-$250M,478,IL,Sage Intacct,false,false
+ACCT-0042,Ironworks Labs,Retail,$50M-$250M,252,CA,Sage Intacct,false,false
+ACCT-0043,Bluefield Supply Co,Wholesale & Distribution,$50M-$250M,468,TX,Microsoft Dynamics 365,false,false
+ACCT-0044,Atlascrest Logistics,Wholesale & Distribution,$10M-$50M,88,WA,NetSuite,true,false
+ACCT-0045,Riverbendridge Consulting Group,Healthcare,$10M-$50M,143,OH,Other,true,false
+ACCT-0046,Redwoodpoint Advisors,Professional Services,$10M-$50M,140,OH,Sage Intacct,false,false
+ACCT-0047,Westgateridge Systems,Retail,$250M-$1B,4220,TX,SAP Business One,true,false
+ACCT-0048,Unionbridge Consulting Group,Retail,$250M-$1B,3910,OH,NetSuite,true,false
+ACCT-0049,Highlandstone Consulting Group,Retail,$250M-$1B,2827,FL,NetSuite,false,false
+ACCT-0050,Redwoodworks Systems,Wholesale & Distribution,$10M-$50M,99,NJ,QuickBooks Online,false,false
+ACCT-0051,Prairiebridge Advisors,Wholesale & Distribution,$50M-$250M,1063,WA,QuickBooks Online,true,false
+ACCT-0052,Prairieridge Distribution,Healthcare,$250M-$1B,1056,CA,Sage Intacct,true,false
+ACCT-0053,Lakesideline Distribution,Professional Services,$250M-$1B,2477,CO,NetSuite,true,false
+ACCT-0054,Atlasfield Labs,Construction,$250M-$1B,3713,AZ,SAP Business One,false,false
+ACCT-0055,Ironbridge Consulting Group,Wholesale & Distribution,$10M-$50M,134,CO,QuickBooks Online,false,false
+ACCT-0056,Copperline Supply Co,Healthcare,$50M-$250M,767,TX,NetSuite,false,false
+ACCT-0057,Beaconridge Distribution,Technology,$50M-$250M,761,PA,NetSuite,true,false
+ACCT-0058,Brightbridge Manufacturing,Wholesale & Distribution,$50M-$250M,418,WA,QuickBooks Online,false,false
+ACCT-0059,Unionridge Advisors,Construction,$10M-$50M,219,NC,Sage Intacct,true,false
+ACCT-0060,Silverworks Systems,Manufacturing,$250M-$1B,1000,NY,NetSuite,true,false
+ACCT-0061,Granitepath Consulting Group,Construction,$250M-$1B,1696,AZ,Sage Intacct,true,false
+ACCT-0062,Silverridge Advisors,Retail,$50M-$250M,1081,OH,SAP Business One,false,false
+ACCT-0063,Silverridge Industries,Professional Services,$50M-$250M,770,FL,SAP Business One,true,false
+ACCT-0064,Cedarpath Advisors,Construction,$50M-$250M,809,GA,Other,false,false
+ACCT-0065,Westgatecrest Consulting Group,Construction,$250M-$1B,2726,TX,Microsoft Dynamics 365,true,false
+ACCT-0066,Prairiepoint Advisors,Retail,$10M-$50M,183,MA,Sage Intacct,true,false
+ACCT-0067,Graniteworks Systems,Healthcare,$10M-$50M,188,CA,NetSuite,true,false
+ACCT-0068,Highlandridge Industries,Technology,$10M-$50M,154,GA,QuickBooks Online,true,false
+ACCT-0069,Ironline Consulting Group,Construction,$250M-$1B,3748,NY,SAP Business One,false,false
+ACCT-0070,Beaconpath Logistics,Healthcare,$250M-$1B,3986,NJ,SAP Business One,false,false
+ACCT-0071,Atlascrest Industries,Retail,$50M-$250M,817,FL,QuickBooks Online,true,false
+ACCT-0072,Pioneerfield Consulting Group,Wholesale & Distribution,$10M-$50M,153,AZ,NetSuite,true,false
+ACCT-0073,Cedargate Labs,Technology,$10M-$50M,201,CO,Sage Intacct,true,false
+ACCT-0074,Atlasridge Manufacturing,Healthcare,$10M-$50M,147,GA,NetSuite,true,false
+ACCT-0075,Beaconworks Consulting Group,Professional Services,$10M-$50M,170,NY,Microsoft Dynamics 365,true,false
+ACCT-0076,Granitefield Logistics,Manufacturing,$250M-$1B,4337,NY,Sage Intacct,true,false
+ACCT-0077,Pioneerstone Distribution,Technology,$250M-$1B,3765,IL,Microsoft Dynamics 365,true,false
+ACCT-0078,Westgatestone Engineering,Professional Services,$250M-$1B,3270,NY,SAP Business One,false,false
+ACCT-0079,Beaconline Industries,Construction,$10M-$50M,226,PA,Sage Intacct,true,false
+ACCT-0080,Coppergate Health Partners,Construction,$50M-$250M,1001,NY,QuickBooks Online,true,false
+ACCT-0081,Redwoodstone Labs,Professional Services,$50M-$250M,1069,NJ,Microsoft Dynamics 365,true,false
+ACCT-0082,Redwoodpath Industries,Manufacturing,$10M-$50M,237,WA,Other,true,false
+ACCT-0083,Riverbendpath Manufacturing,Wholesale & Distribution,$50M-$250M,806,IL,QuickBooks Online,true,false
+ACCT-0084,Graniteworks Manufacturing,Technology,$10M-$50M,195,CO,Sage Intacct,true,false
+ACCT-0085,Pioneerbridge Engineering,Healthcare,$50M-$250M,1016,IL,QuickBooks Online,false,false
+ACCT-0086,Highlandworks Labs,Manufacturing,$10M-$50M,71,FL,Microsoft Dynamics 365,true,false
+ACCT-0087,Silverpath Advisors,Technology,$50M-$250M,1011,NY,NetSuite,true,false
+ACCT-0088,Highlandpoint Builders,Healthcare,$50M-$250M,684,WA,QuickBooks Online,true,false
+ACCT-0089,Unioncrest Supply Co,Technology,$10M-$50M,119,IL,NetSuite,true,false
+ACCT-0090,Ironbridge Health Partners,Retail,$50M-$250M,906,TX,NetSuite,false,false
+ACCT-0091,Prairiegate Labs,Professional Services,$50M-$250M,1052,FL,NetSuite,true,false
+ACCT-0092,Copperfield Industries,Healthcare,$50M-$250M,246,NY,Sage Intacct,false,false
+ACCT-0093,Cedarpath Health Partners,Construction,$250M-$1B,2064,MA,QuickBooks Online,true,false
+ACCT-0094,Blueworks Manufacturing,Professional Services,$10M-$50M,152,MA,NetSuite,false,false
+ACCT-0095,Blueridge Engineering,Healthcare,$250M-$1B,1248,FL,NetSuite,false,false
+ACCT-0096,Westgategate Distribution,Construction,$10M-$50M,147,MA,SAP Business One,true,false
+ACCT-0097,Oaklineline Builders,Professional Services,$50M-$250M,824,AZ,NetSuite,false,false
+ACCT-0098,Brightpoint Builders,Manufacturing,$50M-$250M,445,TX,Sage Intacct,true,false
+ACCT-0099,Atlaspath Industries,Healthcare,$50M-$250M,233,FL,NetSuite,true,false
+ACCT-0100,Meridianstone Advisors,Healthcare,$10M-$50M,210,CO,Sage Intacct,false,false
+ACCT-0101,Atlasstone Labs,Manufacturing,$10M-$50M,118,PA,NetSuite,true,false
+ACCT-0102,Coppergate Industries,Healthcare,$250M-$1B,2698,CA,QuickBooks Online,true,false
+ACCT-0103,Beaconworks Labs,Technology,$50M-$250M,282,CO,NetSuite,true,false
+ACCT-0104,Lakesidegate Builders,Manufacturing,$10M-$50M,222,PA,SAP Business One,false,false
+ACCT-0105,Northworks Distribution,Retail,$10M-$50M,94,MA,QuickBooks Online,true,false
+ACCT-0106,Atlaspath Health Partners,Technology,$50M-$250M,541,GA,Sage Intacct,false,false
+ACCT-0107,Lakesideline Industries,Wholesale & Distribution,$50M-$250M,1167,NJ,Microsoft Dynamics 365,false,false
+ACCT-0108,Meridianstone Supply Co,Professional Services,$10M-$50M,247,NJ,SAP Business One,false,false
+ACCT-0109,Northcrest Manufacturing,Manufacturing,$50M-$250M,730,GA,Sage Intacct,true,false
+ACCT-0110,Meridianfield Systems,Manufacturing,$10M-$50M,123,MA,SAP Business One,true,false
+ACCT-0111,Northgate Systems,Healthcare,$50M-$250M,764,NY,Sage Intacct,true,false
+ACCT-0112,Summitpath Health Partners,Manufacturing,$50M-$250M,710,AZ,NetSuite,false,false
+ACCT-0113,Atlaspath Manufacturing,Construction,$10M-$50M,87,NJ,NetSuite,false,false
+ACCT-0114,Unionridge Health Partners,Retail,$10M-$50M,156,GA,SAP Business One,true,false
+ACCT-0115,Northworks Industries,Construction,$10M-$50M,198,NC,QuickBooks Online,true,false
+ACCT-0116,Riverbendpath Supply Co,Retail,$10M-$50M,189,NJ,QuickBooks Online,true,false
+ACCT-0117,Ironpoint Distribution,Retail,$10M-$50M,248,NJ,NetSuite,false,false
+ACCT-0118,Highlandline Consulting Group,Retail,$250M-$1B,4261,NC,Other,true,false
+ACCT-0119,Blueridge Labs,Healthcare,$250M-$1B,4462,CA,SAP Business One,true,false
+ACCT-0120,Keystonepath Logistics,Technology,$50M-$250M,1091,NC,Other,true,false
+ACCT-0121,Prairiebridge Distribution,Wholesale & Distribution,$50M-$250M,282,PA,QuickBooks Online,false,false
+ACCT-0122,Riverbendline Supply Co,Retail,$50M-$250M,699,PA,QuickBooks Online,false,false
+ACCT-0123,Unionstone Consulting Group,Retail,$250M-$1B,3495,AZ,SAP Business One,true,false
+ACCT-0124,Highlandworks Logistics,Retail,$10M-$50M,64,IL,QuickBooks Online,true,false
+ACCT-0125,Silvercrest Consulting Group,Retail,$50M-$250M,384,TX,NetSuite,false,false
+ACCT-0126,Beacongate Advisors,Construction,$10M-$50M,86,FL,QuickBooks Online,true,false
+ACCT-0127,Prairiefield Manufacturing,Wholesale & Distribution,$250M-$1B,3138,TX,NetSuite,false,false
+ACCT-0128,Oaklineworks Advisors,Wholesale & Distribution,$250M-$1B,1924,MA,Microsoft Dynamics 365,true,false
+ACCT-0129,Beaconpath Health Partners,Construction,$10M-$50M,141,CO,NetSuite,false,false
+ACCT-0130,Northline Builders,Retail,$10M-$50M,225,OH,Microsoft Dynamics 365,true,false
+ACCT-0131,Westgatepath Builders,Manufacturing,$50M-$250M,821,OH,QuickBooks Online,false,false
+ACCT-0132,Westgateworks Advisors,Retail,$50M-$250M,875,NC,Microsoft Dynamics 365,false,false
+ACCT-0133,Brightfield Builders,Professional Services,$50M-$250M,793,GA,Microsoft Dynamics 365,true,false
+ACCT-0134,Copperbridge Industries,Manufacturing,$50M-$250M,335,OH,QuickBooks Online,false,false
+ACCT-0135,Keystonecrest Builders,Healthcare,$250M-$1B,4277,MA,Other,true,false
+ACCT-0136,Lakesidestone Manufacturing,Manufacturing,$250M-$1B,3989,FL,SAP Business One,false,false
+ACCT-0137,Beaconcrest Supply Co,Technology,$10M-$50M,53,IL,QuickBooks Online,true,false
+ACCT-0138,Clearwaterworks Distribution,Wholesale & Distribution,$10M-$50M,145,CA,Sage Intacct,true,false
+ACCT-0139,Westgatecrest Supply Co,Manufacturing,$250M-$1B,3552,CA,Sage Intacct,true,false
+ACCT-0140,Highlandworks Advisors,Manufacturing,$50M-$250M,246,NY,QuickBooks Online,true,false
+ACCT-0141,Summitpoint Labs,Technology,$10M-$50M,144,NC,SAP Business One,false,false
+ACCT-0142,Riverbendline Distribution,Manufacturing,$50M-$250M,1106,NJ,Sage Intacct,false,false
+ACCT-0143,Westgateline Builders,Healthcare,$10M-$50M,105,MA,QuickBooks Online,true,false
+ACCT-0144,Redwoodstone Advisors,Wholesale & Distribution,$10M-$50M,141,NY,QuickBooks Online,true,false
+ACCT-0145,Clearwaterpoint Advisors,Professional Services,$50M-$250M,251,OH,QuickBooks Online,false,false
+ACCT-0146,Oaklinepoint Health Partners,Construction,$250M-$1B,1748,CO,NetSuite,false,false
+ACCT-0147,Lakesideridge Distribution,Retail,$10M-$50M,87,TX,QuickBooks Online,false,false
+ACCT-0148,Summitfield Engineering,Retail,$10M-$50M,110,CO,QuickBooks Online,true,false
+ACCT-0149,Blueridge Industries,Professional Services,$50M-$250M,963,CA,QuickBooks Online,false,false
+ACCT-0150,Keystonegate Health Partners,Manufacturing,$50M-$250M,1168,CO,NetSuite,false,false
+ACCT-0151,Clearwatercrest Builders,Professional Services,$50M-$250M,262,MA,Microsoft Dynamics 365,true,false
+ACCT-0152,Summitpath Industries,Professional Services,$250M-$1B,1230,GA,Sage Intacct,true,false
+ACCT-0153,Prairiegate Advisors,Wholesale & Distribution,$50M-$250M,532,NJ,Other,true,false
+ACCT-0154,Meridiancrest Distribution,Retail,$50M-$250M,918,CA,SAP Business One,false,false
+ACCT-0155,Riverbendpoint Consulting Group,Manufacturing,$50M-$250M,623,GA,Microsoft Dynamics 365,true,false
+ACCT-0156,Unionstone Supply Co,Wholesale & Distribution,$50M-$250M,461,GA,Other,false,false
+ACCT-0157,Pioneerstone Health Partners,Professional Services,$250M-$1B,2668,CA,Microsoft Dynamics 365,true,false
+ACCT-0158,Cedarcrest Logistics,Construction,$50M-$250M,775,GA,Sage Intacct,true,false
+ACCT-0159,Clearwaterline Industries,Healthcare,$10M-$50M,203,IL,QuickBooks Online,false,false
+ACCT-0160,Ironridge Advisors,Retail,$50M-$250M,310,GA,Microsoft Dynamics 365,true,false
+ACCT-0161,Prairiegate Systems,Retail,$250M-$1B,3197,OH,Microsoft Dynamics 365,false,false
+ACCT-0162,Westgateworks Logistics,Wholesale & Distribution,$10M-$50M,245,IL,SAP Business One,true,false
+ACCT-0163,Harborridge Distribution,Professional Services,$50M-$250M,345,AZ,Sage Intacct,true,false
+ACCT-0164,Unioncrest Systems,Technology,$10M-$50M,137,TX,QuickBooks Online,false,false
+ACCT-0165,Oaklinegate Health Partners,Manufacturing,$250M-$1B,1544,OH,Sage Intacct,false,false
+ACCT-0166,Prairiepath Advisors,Construction,$50M-$250M,652,NJ,NetSuite,false,false
+ACCT-0167,Summitbridge Consulting Group,Wholesale & Distribution,$10M-$50M,223,CO,QuickBooks Online,false,false
+ACCT-0168,Bluepoint Consulting Group,Professional Services,$250M-$1B,931,FL,QuickBooks Online,true,false
+ACCT-0169,Cedarworks Builders,Professional Services,$10M-$50M,177,AZ,QuickBooks Online,true,false
+ACCT-0170,Riverbendpoint Labs,Wholesale & Distribution,$50M-$250M,1025,GA,NetSuite,false,false
+ACCT-0171,Blueline Logistics,Professional Services,$50M-$250M,1082,GA,Sage Intacct,false,false
+ACCT-0172,Highlandline Builders,Professional Services,$10M-$50M,133,TX,Microsoft Dynamics 365,false,false
+ACCT-0173,Highlandbridge Health Partners,Professional Services,$50M-$250M,449,NJ,Sage Intacct,true,false
+ACCT-0174,Beaconworks Industries,Healthcare,$10M-$50M,249,TX,NetSuite,false,false
+ACCT-0175,Keystonecrest Systems,Healthcare,$250M-$1B,2338,AZ,Other,false,false
+ACCT-0176,Cedarpoint Health Partners,Manufacturing,$10M-$50M,94,CO,NetSuite,false,false
+ACCT-0177,Graniteridge Advisors,Retail,$50M-$250M,777,OH,Sage Intacct,false,false
+ACCT-0178,Oaklinegate Supply Co,Wholesale & Distribution,$250M-$1B,2194,TX,QuickBooks Online,true,false
+ACCT-0179,Brightworks Builders,Healthcare,$50M-$250M,719,CA,QuickBooks Online,true,false
+ACCT-0180,Bluebridge Builders,Retail,$10M-$50M,73,CO,Sage Intacct,true,false
+ACCT-0181,Oaklinecrest Industries,Technology,$250M-$1B,4217,CO,Sage Intacct,true,false
+ACCT-0182,Pioneercrest Engineering,Technology,$250M-$1B,1323,OH,SAP Business One,true,false
+ACCT-0183,Highlandstone Labs,Professional Services,$50M-$250M,453,AZ,QuickBooks Online,true,false
+ACCT-0184,Keystonegate Engineering,Healthcare,$10M-$50M,149,NJ,Microsoft Dynamics 365,false,false
+ACCT-0185,Bluebridge Health Partners,Construction,$10M-$50M,223,NJ,NetSuite,false,false
+ACCT-0186,Clearwatergate Engineering,Construction,$10M-$50M,219,TX,SAP Business One,true,false
+ACCT-0187,Brightline Engineering,Professional Services,$50M-$250M,517,WA,QuickBooks Online,false,false
+ACCT-0188,Cedarcrest Health Partners,Technology,$50M-$250M,720,GA,NetSuite,true,false
+ACCT-0189,Ironbridge Manufacturing,Manufacturing,$10M-$50M,89,CA,NetSuite,false,false
+ACCT-0190,Keystonecrest Industries,Professional Services,$250M-$1B,3611,GA,SAP Business One,false,false
+ACCT-0191,Westgateline Engineering,Retail,$10M-$50M,227,OH,Sage Intacct,false,false
+ACCT-0192,Unionpath Logistics,Wholesale & Distribution,$50M-$250M,936,FL,Other,false,false
+ACCT-0193,Unionpath Systems,Healthcare,$50M-$250M,1188,OH,Microsoft Dynamics 365,false,false
+ACCT-0194,Ironbridge Advisors,Technology,$250M-$1B,2791,OH,NetSuite,true,false
+ACCT-0195,Keystoneline Engineering,Retail,$250M-$1B,3376,TX,SAP Business One,true,false
+ACCT-0196,Pioneerbridge Labs,Wholesale & Distribution,$250M-$1B,4364,WA,SAP Business One,true,false
+ACCT-0197,Harborworks Manufacturing,Manufacturing,$250M-$1B,4303,NJ,NetSuite,false,false
+ACCT-0198,Meridianbridge Logistics,Technology,$50M-$250M,714,GA,NetSuite,false,false
+ACCT-0199,Redwoodpoint Logistics,Professional Services,$10M-$50M,232,NC,QuickBooks Online,true,false
+ACCT-0200,Pioneerpath Distribution,Professional Services,$10M-$50M,54,IL,NetSuite,true,false
+ACCT-0201,Uniongate Labs,Retail,$50M-$250M,495,FL,QuickBooks Online,true,false
+ACCT-0202,Atlasgate Manufacturing,Retail,$10M-$50M,177,CO,QuickBooks Online,false,false
+ACCT-0203,Oaklinepoint Industries,Technology,$10M-$50M,50,CO,QuickBooks Online,false,false
+ACCT-0204,Harborstone Labs,Professional Services,$250M-$1B,3054,WA,QuickBooks Online,false,false
+ACCT-0205,Riverbendfield Consulting Group,Professional Services,$250M-$1B,3503,NJ,Other,true,false
+ACCT-0206,Northbridge Health Partners,Wholesale & Distribution,$10M-$50M,218,NC,NetSuite,false,false
+ACCT-0207,Lakesideridge Logistics,Healthcare,$10M-$50M,214,TX,Microsoft Dynamics 365,false,false
+ACCT-0208,Highlandpath Advisors,Manufacturing,$10M-$50M,66,AZ,Microsoft Dynamics 365,true,false
+ACCT-0209,Ironfield Supply Co,Construction,$250M-$1B,2531,PA,QuickBooks Online,true,false
+ACCT-0210,Redwoodfield Advisors,Professional Services,$10M-$50M,144,NJ,SAP Business One,false,false
+ACCT-0211,Beaconbridge Engineering,Technology,$50M-$250M,576,OH,QuickBooks Online,false,false
+ACCT-0212,Unionline Health Partners,Retail,$50M-$250M,384,WA,NetSuite,true,false
+ACCT-0213,Lakesideworks Builders,Wholesale & Distribution,$50M-$250M,636,TX,Sage Intacct,true,false
+ACCT-0214,Bluebridge Distribution,Healthcare,$250M-$1B,3519,OH,SAP Business One,true,false
+ACCT-0215,Brightline Supply Co,Wholesale & Distribution,$50M-$250M,895,TX,Other,true,false
+ACCT-0216,Westgatepath Logistics,Manufacturing,$10M-$50M,249,NC,QuickBooks Online,true,false
+ACCT-0217,Oaklinefield Distribution,Technology,$10M-$50M,144,GA,QuickBooks Online,true,false
+ACCT-0218,Cedarcrest Supply Co,Wholesale & Distribution,$10M-$50M,121,FL,Other,true,false
+ACCT-0219,Harborpath Labs,Construction,$10M-$50M,80,IL,Microsoft Dynamics 365,false,false
+ACCT-0220,Irongate Builders,Technology,$50M-$250M,404,CA,NetSuite,true,false
+ACCT-0221,Harborpath Health Partners,Retail,$250M-$1B,2209,NC,QuickBooks Online,true,false
+ACCT-0222,Riverbendworks Builders,Wholesale & Distribution,$250M-$1B,3806,AZ,Sage Intacct,false,false
+ACCT-0223,Keystonepoint Health Partners,Retail,$250M-$1B,1468,FL,Microsoft Dynamics 365,true,false
+ACCT-0224,Riverbendgate Supply Co,Construction,$50M-$250M,332,CO,SAP Business One,true,false
+ACCT-0225,Beaconpath Labs,Technology,$50M-$250M,1043,CO,NetSuite,false,false
+ACCT-0226,Brightstone Manufacturing,Construction,$50M-$250M,552,TX,SAP Business One,false,false
+ACCT-0227,Brightgate Engineering,Manufacturing,$50M-$250M,643,WA,SAP Business One,true,false
+ACCT-0228,Summitcrest Engineering,Manufacturing,$10M-$50M,132,AZ,NetSuite,false,false
+ACCT-0229,Keystoneworks Health Partners,Wholesale & Distribution,$10M-$50M,191,IL,NetSuite,true,false
+ACCT-0230,Riverbendstone Labs,Construction,$50M-$250M,1164,CO,NetSuite,false,false
+ACCT-0231,Uniongate Supply Co,Construction,$250M-$1B,1068,PA,SAP Business One,true,false
+ACCT-0232,Brightgate Builders,Retail,$50M-$250M,785,NJ,Sage Intacct,true,false
+ACCT-0233,Brightcrest Builders,Healthcare,$50M-$250M,694,FL,Microsoft Dynamics 365,false,false
+ACCT-0234,Copperpath Health Partners,Manufacturing,$50M-$250M,650,NJ,QuickBooks Online,true,false
+ACCT-0235,Westgateridge Supply Co,Healthcare,$250M-$1B,3907,PA,QuickBooks Online,true,false
+ACCT-0236,Redwoodcrest Labs,Manufacturing,$10M-$50M,169,CA,NetSuite,true,false
+ACCT-0237,Summitfield Builders,Retail,$250M-$1B,3420,NJ,NetSuite,false,false
+ACCT-0238,Harborbridge Distribution,Manufacturing,$50M-$250M,981,TX,QuickBooks Online,true,false
+ACCT-0239,Pioneerworks Manufacturing,Technology,$10M-$50M,179,MA,Other,true,false
+ACCT-0240,Redwoodfield Logistics,Construction,$10M-$50M,217,NC,QuickBooks Online,true,false
+ACCT-0241,Summitline Engineering,Wholesale & Distribution,$250M-$1B,2398,OH,QuickBooks Online,true,false
+ACCT-0242,Bluegate Labs,Construction,$10M-$50M,123,CA,QuickBooks Online,true,false
+ACCT-0243,Riverbendworks Distribution,Professional Services,$50M-$250M,331,CA,QuickBooks Online,false,false
+ACCT-0244,Lakesidecrest Supply Co,Manufacturing,$50M-$250M,816,WA,QuickBooks Online,true,false
+ACCT-0245,Lakesidepath Labs,Construction,$50M-$250M,1114,WA,NetSuite,false,false
+ACCT-0246,Lakesideridge Consulting Group,Wholesale & Distribution,$250M-$1B,4351,IL,Sage Intacct,true,false
+ACCT-0247,Keystonecrest Manufacturing,Healthcare,$50M-$250M,686,PA,NetSuite,true,false
+ACCT-0248,Summitline Distribution,Wholesale & Distribution,$10M-$50M,226,NC,NetSuite,true,false
+ACCT-0249,Brightgate Distribution,Professional Services,$10M-$50M,199,MA,NetSuite,false,false
+ACCT-0250,Clearwaterpoint Logistics,Wholesale & Distribution,$50M-$250M,312,FL,NetSuite,true,false
+ACCT-0251,Cedarline Industries,Construction,$10M-$50M,248,CO,SAP Business One,false,false
+ACCT-0252,Unionfield Industries,Manufacturing,$10M-$50M,193,GA,Other,true,false
+ACCT-0253,Meridiancrest Supply Co,Wholesale & Distribution,$50M-$250M,990,PA,Microsoft Dynamics 365,false,false
+ACCT-0254,Highlandworks Distribution,Manufacturing,$50M-$250M,485,WA,NetSuite,false,false
+ACCT-0255,Copperworks Industries,Wholesale & Distribution,$10M-$50M,175,GA,QuickBooks Online,false,false
+ACCT-0256,Unionworks Builders,Wholesale & Distribution,$10M-$50M,189,NJ,SAP Business One,true,false
+ACCT-0257,Redwoodridge Builders,Wholesale & Distribution,$10M-$50M,70,GA,SAP Business One,false,false
+ACCT-0258,Ironcrest Builders,Wholesale & Distribution,$250M-$1B,2012,TX,NetSuite,false,false
+ACCT-0259,Silverpoint Logistics,Construction,$50M-$250M,431,NC,NetSuite,true,false
+ACCT-0260,Lakesidepath Health Partners,Manufacturing,$50M-$250M,205,WA,Other,true,false
+ACCT-0261,Brightpath Manufacturing,Retail,$50M-$250M,1187,IL,QuickBooks Online,false,false
+ACCT-0262,Granitegate Systems,Wholesale & Distribution,$50M-$250M,1070,NY,SAP Business One,true,false
+ACCT-0263,Harborfield Consulting Group,Manufacturing,$50M-$250M,1159,AZ,Other,false,false
+ACCT-0264,Bluefield Builders,Professional Services,$50M-$250M,1150,GA,NetSuite,false,false
+ACCT-0265,Riverbendcrest Manufacturing,Manufacturing,$250M-$1B,4385,WA,QuickBooks Online,true,false
+ACCT-0266,Summitbridge Engineering,Wholesale & Distribution,$50M-$250M,463,AZ,NetSuite,false,false
+ACCT-0267,Coppergate Advisors,Manufacturing,$50M-$250M,825,PA,Sage Intacct,true,false
+ACCT-0268,Atlascrest Supply Co,Wholesale & Distribution,$10M-$50M,74,TX,Other,true,false
+ACCT-0269,Silverfield Builders,Technology,$10M-$50M,242,IL,Other,true,false
+ACCT-0270,Uniongate Logistics,Healthcare,$10M-$50M,227,FL,NetSuite,true,false
+ACCT-0271,Copperridge Consulting Group,Wholesale & Distribution,$50M-$250M,988,IL,Sage Intacct,false,false
+ACCT-0272,Copperbridge Distribution,Manufacturing,$10M-$50M,172,TX,QuickBooks Online,false,false
+ACCT-0273,Redwoodline Industries,Technology,$50M-$250M,975,WA,Microsoft Dynamics 365,false,false
+ACCT-0274,Silvergate Health Partners,Construction,$50M-$250M,920,GA,NetSuite,false,false
+ACCT-0275,Bluecrest Labs,Construction,$10M-$50M,88,TX,QuickBooks Online,true,false
+ACCT-0276,Summitpoint Industries,Professional Services,$50M-$250M,1120,WA,QuickBooks Online,true,false
+ACCT-0277,Cedarcrest Consulting Group,Professional Services,$50M-$250M,772,MA,Sage Intacct,true,false
+ACCT-0278,Northpoint Distribution,Technology,$10M-$50M,138,AZ,NetSuite,false,false
+ACCT-0279,Granitepath Logistics,Manufacturing,$10M-$50M,246,TX,Microsoft Dynamics 365,false,false
+ACCT-0280,Beaconpath Consulting Group,Wholesale & Distribution,$10M-$50M,219,PA,QuickBooks Online,false,false
+ACCT-0281,Redwoodstone Engineering,Technology,$250M-$1B,3066,TX,Microsoft Dynamics 365,true,false
+ACCT-0282,Northfield Builders,Wholesale & Distribution,$50M-$250M,757,NJ,QuickBooks Online,false,false
+ACCT-0283,Silverpath Supply Co,Manufacturing,$10M-$50M,235,OH,NetSuite,false,false
+ACCT-0284,Atlasgate Logistics,Professional Services,$10M-$50M,75,CO,NetSuite,false,false
+ACCT-0285,Highlandfield Systems,Technology,$50M-$250M,649,FL,QuickBooks Online,false,false
+ACCT-0286,Copperpoint Industries,Construction,$50M-$250M,812,OH,Sage Intacct,true,false
+ACCT-0287,Copperridge Advisors,Technology,$50M-$250M,507,IL,NetSuite,false,false
+ACCT-0288,Clearwaterline Labs,Healthcare,$50M-$250M,1164,NC,Sage Intacct,false,false
+ACCT-0289,Lakesideline Consulting Group,Technology,$10M-$50M,97,OH,QuickBooks Online,true,false
+ACCT-0290,Silverworks Industries,Technology,$10M-$50M,64,WA,QuickBooks Online,true,false
+ACCT-0291,Keystoneridge Consulting Group,Manufacturing,$10M-$50M,134,NC,NetSuite,true,false
+ACCT-0292,Unionpoint Logistics,Wholesale & Distribution,$10M-$50M,204,CO,NetSuite,true,false
+ACCT-0293,Oaklinecrest Systems,Retail,$50M-$250M,1128,GA,QuickBooks Online,false,false
+ACCT-0294,Ironpoint Industries,Retail,$10M-$50M,172,FL,Sage Intacct,false,false
+ACCT-0295,Beaconpoint Labs,Healthcare,$10M-$50M,147,MA,QuickBooks Online,true,false
+ACCT-0296,Prairiebridge Labs,Technology,$250M-$1B,1303,OH,Other,true,false
+ACCT-0297,Lakesidepoint Supply Co,Professional Services,$10M-$50M,194,PA,NetSuite,true,false
+ACCT-0298,Prairiecrest Distribution,Technology,$50M-$250M,502,TX,NetSuite,true,false
+ACCT-0299,Oaklinepoint Manufacturing,Wholesale & Distribution,$50M-$250M,545,IL,Microsoft Dynamics 365,true,false
+ACCT-0300,Unionpath Manufacturing,Retail,$10M-$50M,140,TX,NetSuite,true,false
+ACCT-0301,Harborcrest Advisors,Construction,$250M-$1B,1038,PA,Microsoft Dynamics 365,false,false
+ACCT-0302,Clearwaterfield Logistics,Retail,$50M-$250M,845,FL,NetSuite,true,false
+ACCT-0303,Ironcrest Manufacturing,Construction,$10M-$50M,213,NC,SAP Business One,false,false
+ACCT-0304,Clearwaterpath Logistics,Construction,$10M-$50M,155,NY,NetSuite,false,false
+ACCT-0305,Riverbendworks Logistics,Wholesale & Distribution,$50M-$250M,890,NJ,Microsoft Dynamics 365,false,false
+ACCT-0306,Summitstone Labs,Manufacturing,$10M-$50M,208,WA,NetSuite,true,false
+ACCT-0307,Beaconstone Supply Co,Technology,$250M-$1B,3214,FL,Other,true,false
+ACCT-0308,Clearwaterstone Advisors,Wholesale & Distribution,$250M-$1B,4011,NY,NetSuite,true,false
+ACCT-0309,Riverbendpath Logistics,Wholesale & Distribution,$50M-$250M,375,CA,QuickBooks Online,true,false
+ACCT-0310,Lakesidegate Health Partners,Professional Services,$250M-$1B,1841,FL,SAP Business One,false,false
+ACCT-0311,Oaklinepath Builders,Professional Services,$10M-$50M,225,IL,SAP Business One,false,false
+ACCT-0312,Blueridge Supply Co,Manufacturing,$10M-$50M,200,TX,Microsoft Dynamics 365,false,false
+ACCT-0313,Beaconstone Builders,Manufacturing,$10M-$50M,195,PA,Microsoft Dynamics 365,false,false
+ACCT-0314,Riverbendbridge Consulting Group,Manufacturing,$50M-$250M,1009,AZ,Microsoft Dynamics 365,true,false
+ACCT-0315,Redwoodfield Health Partners,Retail,$50M-$250M,277,GA,Sage Intacct,false,false
+ACCT-0316,Westgateline Supply Co,Healthcare,$10M-$50M,250,MA,QuickBooks Online,true,false
+ACCT-0317,Harborline Engineering,Manufacturing,$50M-$250M,589,CA,NetSuite,true,false
+ACCT-0318,Silverstone Health Partners,Technology,$10M-$50M,232,OH,Sage Intacct,false,false
+ACCT-0319,Lakesidebridge Health Partners,Healthcare,$10M-$50M,163,GA,Microsoft Dynamics 365,true,false
+ACCT-0320,Graniteridge Consulting Group,Construction,$50M-$250M,724,NJ,NetSuite,true,false
+ACCT-0321,Westgatebridge Consulting Group,Technology,$10M-$50M,149,OH,NetSuite,false,false
+ACCT-0322,Silvergate Labs,Technology,$10M-$50M,93,TX,NetSuite,true,false
+ACCT-0323,Cedarstone Engineering,Technology,$50M-$250M,506,MA,Microsoft Dynamics 365,true,false
+ACCT-0324,Silverpath Distribution,Technology,$50M-$250M,309,TX,QuickBooks Online,false,false
+ACCT-0325,Lakesidegate Consulting Group,Healthcare,$250M-$1B,2703,GA,QuickBooks Online,false,false
+ACCT-0326,Highlandpoint Manufacturing,Technology,$10M-$50M,131,IL,Microsoft Dynamics 365,false,false
+ACCT-0327,Oaklinepoint Supply Co,Retail,$10M-$50M,150,GA,NetSuite,false,false
+ACCT-0328,Oaklinecrest Engineering,Construction,$50M-$250M,227,AZ,QuickBooks Online,false,false
+ACCT-0329,Meridianworks Industries,Retail,$10M-$50M,154,NC,QuickBooks Online,false,false
+ACCT-0330,Silverworks Advisors,Technology,$10M-$50M,146,CA,QuickBooks Online,false,false
+ACCT-0331,Oaklineline Labs,Retail,$50M-$250M,908,NJ,QuickBooks Online,false,false
+ACCT-0332,Redwoodcrest Distribution,Professional Services,$50M-$250M,311,OH,NetSuite,false,false
+ACCT-0333,Harborgate Logistics,Wholesale & Distribution,$50M-$250M,893,NC,QuickBooks Online,false,false
+ACCT-0334,Atlasstone Logistics,Manufacturing,$10M-$50M,180,AZ,QuickBooks Online,false,false
+ACCT-0335,Redwoodline Manufacturing,Construction,$50M-$250M,907,WA,NetSuite,false,false
+ACCT-0336,Pioneerstone Builders,Professional Services,$50M-$250M,318,PA,SAP Business One,true,false
+ACCT-0337,Copperbridge Manufacturing,Construction,$50M-$250M,694,GA,QuickBooks Online,true,false
+ACCT-0338,Highlandpath Supply Co,Professional Services,$10M-$50M,231,CA,NetSuite,true,false
+ACCT-0339,Summitridge Industries,Manufacturing,$10M-$50M,191,TX,QuickBooks Online,true,false
+ACCT-0340,Meridianpoint Consulting Group,Manufacturing,$50M-$250M,855,NC,QuickBooks Online,true,false
+ACCT-0341,Westgatepoint Manufacturing,Technology,$50M-$250M,204,AZ,NetSuite,true,false
+ACCT-0342,Redwoodbridge Systems,Healthcare,$50M-$250M,886,PA,QuickBooks Online,false,false
+ACCT-0343,Westgateline Distribution,Healthcare,$10M-$50M,167,CO,NetSuite,false,false
+ACCT-0344,Coppergate Distribution,Manufacturing,$10M-$50M,130,CA,NetSuite,true,false
+ACCT-0345,Redwoodridge Labs,Construction,$10M-$50M,85,CO,QuickBooks Online,true,false
+ACCT-0346,Brightcrest Industries,Manufacturing,$250M-$1B,3172,TX,QuickBooks Online,true,false
+ACCT-0347,Lakesidepath Distribution,Healthcare,$10M-$50M,52,MA,NetSuite,false,false
+ACCT-0348,Riverbendcrest Advisors,Wholesale & Distribution,$50M-$250M,703,NJ,Microsoft Dynamics 365,true,false
+ACCT-0349,Harborstone Distribution,Retail,$10M-$50M,106,IL,NetSuite,true,false
+ACCT-0350,Copperridge Manufacturing,Retail,$50M-$250M,984,MA,QuickBooks Online,true,false
+ACCT-0351,Summitworks Labs,Healthcare,$250M-$1B,3120,PA,Microsoft Dynamics 365,false,false
+ACCT-0352,Meridiancrest Systems,Professional Services,$250M-$1B,3914,PA,Sage Intacct,true,false
+ACCT-0353,Bluepath Builders,Retail,$10M-$50M,72,MA,SAP Business One,true,false
+ACCT-0354,Silverpoint Industries,Healthcare,$50M-$250M,1081,AZ,Sage Intacct,true,false
+ACCT-0355,Ironfield Distribution,Healthcare,$10M-$50M,202,WA,NetSuite,false,false
+ACCT-0356,Copperworks Distribution,Retail,$10M-$50M,181,NC,Microsoft Dynamics 365,true,false
+ACCT-0357,Atlasfield Builders,Manufacturing,$250M-$1B,3773,PA,NetSuite,true,false
+ACCT-0358,Lakesidepoint Advisors,Manufacturing,$10M-$50M,197,NC,NetSuite,true,false
+ACCT-0359,Graniteline Labs,Wholesale & Distribution,$50M-$250M,1158,GA,QuickBooks Online,true,false
+ACCT-0360,Oaklinefield Industries,Technology,$10M-$50M,212,NC,Sage Intacct,false,false
+ACCT-0361,Riverbendline Systems,Retail,$250M-$1B,1767,MA,NetSuite,false,false
+ACCT-0362,Lakesidecrest Distribution,Retail,$10M-$50M,174,OH,QuickBooks Online,false,false
+ACCT-0363,Bluefield Health Partners,Retail,$50M-$250M,670,NY,NetSuite,false,false
+ACCT-0364,Meridianpath Logistics,Technology,$250M-$1B,1728,AZ,SAP Business One,false,false
+ACCT-0365,Copperridge Builders,Healthcare,$10M-$50M,114,CA,QuickBooks Online,false,false
+ACCT-0366,Brightworks Industries,Manufacturing,$50M-$250M,639,NC,NetSuite,true,false
+ACCT-0367,Ironpath Health Partners,Manufacturing,$10M-$50M,182,NC,QuickBooks Online,true,false
+ACCT-0368,Lakesidestone Consulting Group,Technology,$50M-$250M,272,FL,QuickBooks Online,false,false
+ACCT-0369,Summitstone Supply Co,Healthcare,$10M-$50M,85,NJ,Microsoft Dynamics 365,false,false
+ACCT-0370,Cedarridge Health Partners,Professional Services,$50M-$250M,824,NC,NetSuite,true,false
+ACCT-0371,Ironridge Consulting Group,Technology,$50M-$250M,1080,FL,NetSuite,true,false
+ACCT-0372,Summitgate Industries,Technology,$10M-$50M,130,OH,NetSuite,true,false
+ACCT-0373,Granitepoint Labs,Wholesale & Distribution,$50M-$250M,822,IL,Microsoft Dynamics 365,false,false
+ACCT-0374,Clearwaterworks Systems,Construction,$50M-$250M,393,AZ,QuickBooks Online,false,false
+ACCT-0375,Silverpath Consulting Group,Technology,$10M-$50M,213,CO,NetSuite,false,false
+ACCT-0376,Northbridge Supply Co,Retail,$10M-$50M,195,NJ,QuickBooks Online,false,false
+ACCT-0377,Pioneerstone Logistics,Professional Services,$50M-$250M,468,FL,NetSuite,true,false
+ACCT-0378,Beaconcrest Builders,Construction,$50M-$250M,985,NJ,QuickBooks Online,true,false
+ACCT-0379,Brightcrest Labs,Healthcare,$50M-$250M,285,IL,NetSuite,false,false
+ACCT-0380,Brightstone Builders,Wholesale & Distribution,$50M-$250M,1176,PA,NetSuite,true,false
+ACCT-0381,Atlasstone Manufacturing,Professional Services,$50M-$250M,516,NC,Microsoft Dynamics 365,false,false
+ACCT-0382,Summitfield Industries,Professional Services,$10M-$50M,91,MA,Other,true,false
+ACCT-0383,Unionworks Engineering,Wholesale & Distribution,$10M-$50M,249,PA,NetSuite,false,false
+ACCT-0384,Northbridge Consulting Group,Professional Services,$10M-$50M,117,AZ,Other,false,false
+ACCT-0385,Pioneerpath Labs,Technology,$10M-$50M,195,TX,QuickBooks Online,true,false
+ACCT-0386,Summitgate Advisors,Manufacturing,$50M-$250M,958,WA,NetSuite,false,false
+ACCT-0387,Northpoint Logistics,Technology,$50M-$250M,1142,TX,NetSuite,false,false
+ACCT-0388,Bluecrest Industries,Technology,$50M-$250M,429,GA,NetSuite,false,false
+ACCT-0389,Lakesideworks Health Partners,Professional Services,$50M-$250M,714,NC,SAP Business One,true,false
+ACCT-0390,Keystonefield Consulting Group,Technology,$10M-$50M,122,OH,Microsoft Dynamics 365,true,false
+ACCT-0391,Redwoodpoint Builders,Healthcare,$50M-$250M,957,CO,NetSuite,true,false
+ACCT-0392,Pioneerpoint Industries,Retail,$250M-$1B,4160,FL,NetSuite,false,false
+ACCT-0393,Northpoint Labs,Retail,$10M-$50M,227,NY,Other,true,false
+ACCT-0394,Unionworks Health Partners,Manufacturing,$10M-$50M,157,MA,Other,false,false
+ACCT-0395,Cedarworks Health Partners,Manufacturing,$10M-$50M,183,NJ,Microsoft Dynamics 365,true,false
+ACCT-0396,Unionstone Distribution,Manufacturing,$10M-$50M,213,PA,QuickBooks Online,false,false
+ACCT-0397,Blueline Advisors,Manufacturing,$250M-$1B,2094,IL,SAP Business One,false,false
+ACCT-0398,Beaconbridge Supply Co,Manufacturing,$50M-$250M,276,FL,NetSuite,false,false
+ACCT-0399,Summitridge Health Partners,Technology,$10M-$50M,130,NJ,NetSuite,true,false
+ACCT-0400,Ironpath Builders,Retail,$50M-$250M,322,CA,NetSuite,false,false
+ACCT-0401,Highlandgate Logistics,Retail,$10M-$50M,133,TX,NetSuite,true,false
+ACCT-0402,Redwoodline Labs,Healthcare,$10M-$50M,116,PA,Other,true,false
+ACCT-0403,Cedarstone Logistics,Retail,$10M-$50M,106,TX,NetSuite,true,false
+ACCT-0404,Clearwaterstone Distribution,Retail,$50M-$250M,276,NY,Other,true,false
+ACCT-0405,Granitebridge Health Partners,Technology,$10M-$50M,62,TX,SAP Business One,true,false
+ACCT-0406,Unionline Manufacturing,Wholesale & Distribution,$10M-$50M,159,TX,QuickBooks Online,false,false
+ACCT-0407,Prairieworks Manufacturing,Professional Services,$250M-$1B,3415,CO,Sage Intacct,false,false
+ACCT-0408,Pioneerline Labs,Professional Services,$50M-$250M,486,NJ,NetSuite,true,false
+ACCT-0409,Keystonepoint Advisors,Construction,$250M-$1B,4155,NY,Other,false,false
+ACCT-0410,Redwoodpath Labs,Healthcare,$50M-$250M,1134,CO,QuickBooks Online,true,false
+ACCT-0411,Harborfield Supply Co,Professional Services,$50M-$250M,1117,OH,Microsoft Dynamics 365,true,false
+ACCT-0412,Pioneercrest Supply Co,Manufacturing,$50M-$250M,1197,TX,NetSuite,false,false
+ACCT-0413,Prairiecrest Industries,Manufacturing,$10M-$50M,197,PA,Other,true,false
+ACCT-0414,Harborridge Systems,Retail,$50M-$250M,955,AZ,QuickBooks Online,false,false
+ACCT-0415,Highlandbridge Distribution,Construction,$50M-$250M,1171,FL,Microsoft Dynamics 365,false,false
+ACCT-0416,Pioneercrest Builders,Professional Services,$10M-$50M,73,NY,NetSuite,true,false
+ACCT-0417,Lakesidegate Systems,Healthcare,$250M-$1B,3836,TX,SAP Business One,false,false
+ACCT-0418,Lakesidefield Logistics,Wholesale & Distribution,$10M-$50M,86,OH,NetSuite,true,false
+ACCT-0419,Redwoodstone Supply Co,Wholesale & Distribution,$50M-$250M,605,CO,NetSuite,true,false
+ACCT-0420,Cedarridge Industries,Retail,$250M-$1B,3518,MA,Sage Intacct,true,false
+ACCT-0421,Silvergate Engineering,Wholesale & Distribution,$10M-$50M,226,IL,NetSuite,false,false
+ACCT-0422,Highlandgate Consulting Group,Retail,$250M-$1B,3224,NY,NetSuite,true,false
+ACCT-0423,Westgatepoint Advisors,Technology,$50M-$250M,344,GA,Microsoft Dynamics 365,true,false
+ACCT-0424,Lakesideridge Advisors,Professional Services,$250M-$1B,4265,AZ,Sage Intacct,false,false
+ACCT-0425,Lakesidepath Logistics,Manufacturing,$10M-$50M,227,CA,QuickBooks Online,false,false
+ACCT-0426,Unionfield Logistics,Wholesale & Distribution,$10M-$50M,157,TX,SAP Business One,true,false
+ACCT-0427,Beaconbridge Labs,Retail,$10M-$50M,172,OH,SAP Business One,false,false
+ACCT-0428,Clearwaterpoint Engineering,Retail,$50M-$250M,1066,NY,NetSuite,true,false
+ACCT-0429,Harborline Engineering,Construction,$50M-$250M,1164,CA,QuickBooks Online,false,false
+ACCT-0430,Brightridge Distribution,Manufacturing,$250M-$1B,1119,CA,QuickBooks Online,false,false
+ACCT-0431,Unioncrest Builders,Healthcare,$50M-$250M,443,CA,NetSuite,false,false
+ACCT-0432,Pioneerridge Logistics,Technology,$10M-$50M,72,IL,Microsoft Dynamics 365,false,false
+ACCT-0433,Pioneerpoint Health Partners,Manufacturing,$10M-$50M,213,IL,Other,true,false
+ACCT-0434,Summitworks Consulting Group,Wholesale & Distribution,$50M-$250M,471,CA,Sage Intacct,true,false
+ACCT-0435,Redwoodline Supply Co,Professional Services,$10M-$50M,117,MA,QuickBooks Online,true,false
+ACCT-0436,Prairiegate Logistics,Wholesale & Distribution,$10M-$50M,220,CA,NetSuite,true,false
+ACCT-0437,Silvercrest Logistics,Retail,$250M-$1B,3040,NJ,Other,false,false
+ACCT-0438,Pioneergate Systems,Professional Services,$50M-$250M,604,PA,Microsoft Dynamics 365,true,false
+ACCT-0439,Keystonegate Advisors,Manufacturing,$250M-$1B,1392,OH,QuickBooks Online,false,false
+ACCT-0440,Harborpoint Systems,Technology,$10M-$50M,70,NC,QuickBooks Online,false,false
+ACCT-0441,Prairiebridge Industries,Professional Services,$250M-$1B,1256,NJ,Sage Intacct,false,false
+ACCT-0442,Prairiecrest Manufacturing,Professional Services,$250M-$1B,4121,AZ,Sage Intacct,true,false
+ACCT-0443,Atlasstone Consulting Group,Construction,$10M-$50M,200,CO,Microsoft Dynamics 365,false,false
+ACCT-0444,Summitgate Health Partners,Retail,$50M-$250M,748,GA,SAP Business One,true,false
+ACCT-0445,Brightpath Distribution,Professional Services,$50M-$250M,376,IL,QuickBooks Online,false,false
+ACCT-0446,Clearwaterline Logistics,Healthcare,$10M-$50M,226,FL,NetSuite,true,false
+ACCT-0447,Prairiebridge Logistics,Retail,$10M-$50M,127,IL,NetSuite,true,false
+ACCT-0448,Highlandstone Systems,Wholesale & Distribution,$10M-$50M,163,OH,Microsoft Dynamics 365,true,false
+ACCT-0449,Atlasgate Advisors,Technology,$10M-$50M,104,PA,QuickBooks Online,true,false
+ACCT-0450,Keystonebridge Logistics,Manufacturing,$50M-$250M,267,IL,Microsoft Dynamics 365,true,false
+ACCT-0451,Keystonegate Logistics,Retail,$10M-$50M,101,PA,NetSuite,true,false
+ACCT-0452,Bluebridge Industries,Healthcare,$10M-$50M,168,WA,QuickBooks Online,false,false
+ACCT-0453,Clearwaterfield Systems,Construction,$10M-$50M,164,TX,Other,true,false
+ACCT-0454,Riverbendbridge Supply Co,Healthcare,$10M-$50M,241,PA,Sage Intacct,true,false
+ACCT-0455,Beaconfield Engineering,Retail,$250M-$1B,1777,PA,NetSuite,true,false
+ACCT-0456,Ironworks Advisors,Professional Services,$50M-$250M,1085,OH,Other,false,false
+ACCT-0457,Pioneerridge Advisors,Retail,$10M-$50M,52,FL,NetSuite,false,false
+ACCT-0458,Copperworks Consulting Group,Retail,$250M-$1B,2328,MA,NetSuite,true,false
+ACCT-0459,Clearwatercrest Distribution,Professional Services,$10M-$50M,51,WA,Other,false,false
+ACCT-0460,Redwoodcrest Advisors,Healthcare,$50M-$250M,505,NC,NetSuite,true,false
+ACCT-0461,Prairiebridge Builders,Wholesale & Distribution,$10M-$50M,216,IL,NetSuite,true,false
+ACCT-0462,Silverfield Distribution,Healthcare,$50M-$250M,897,TX,Microsoft Dynamics 365,false,false
+ACCT-0463,Bluegate Industries,Retail,$250M-$1B,1677,GA,Microsoft Dynamics 365,true,false
+ACCT-0464,Riverbendpath Advisors,Healthcare,$10M-$50M,93,PA,Sage Intacct,false,false
+ACCT-0465,Copperstone Manufacturing,Healthcare,$10M-$50M,235,OH,Sage Intacct,false,false
+ACCT-0466,Clearwaterbridge Advisors,Healthcare,$10M-$50M,107,AZ,SAP Business One,true,false
+ACCT-0467,Lakesidebridge Builders,Technology,$50M-$250M,1071,CA,QuickBooks Online,false,false
+ACCT-0468,Oaklinegate Distribution,Manufacturing,$10M-$50M,178,CA,SAP Business One,true,false
+ACCT-0469,Copperline Logistics,Manufacturing,$250M-$1B,1462,FL,QuickBooks Online,false,false
+ACCT-0470,Meridianridge Supply Co,Manufacturing,$250M-$1B,4090,CA,QuickBooks Online,false,false
+ACCT-0471,Harborbridge Advisors,Technology,$10M-$50M,120,FL,Microsoft Dynamics 365,true,false
+ACCT-0472,Cedargate Consulting Group,Technology,$50M-$250M,639,MA,QuickBooks Online,true,false
+ACCT-0473,Ironbridge Logistics,Retail,$250M-$1B,4312,WA,NetSuite,false,false
+ACCT-0474,Brightpoint Systems,Healthcare,$50M-$250M,519,TX,NetSuite,true,false
+ACCT-0475,Copperridge Health Partners,Healthcare,$250M-$1B,2091,MA,Microsoft Dynamics 365,false,false
+ACCT-0476,Lakesideline Advisors,Healthcare,$250M-$1B,2907,GA,Microsoft Dynamics 365,true,false
+ACCT-0477,Beaconfield Systems,Manufacturing,$10M-$50M,104,AZ,NetSuite,true,false
+ACCT-0478,Summitbridge Industries,Professional Services,$50M-$250M,584,NC,NetSuite,true,false
+ACCT-0479,Bluegate Logistics,Wholesale & Distribution,$50M-$250M,1056,NY,NetSuite,true,false
+ACCT-0480,Meridianline Health Partners,Technology,$50M-$250M,918,TX,NetSuite,false,false
+ACCT-0481,Northworks Consulting Group,Wholesale & Distribution,$50M-$250M,732,IL,Sage Intacct,false,false
+ACCT-0482,Uniongate Health Partners,Retail,$10M-$50M,77,MA,NetSuite,true,false
+ACCT-0483,Prairiecrest Systems,Technology,$10M-$50M,125,TX,NetSuite,true,false
+ACCT-0484,Ironpath Supply Co,Professional Services,$10M-$50M,221,CA,SAP Business One,false,false
+ACCT-0485,Clearwaterpath Engineering,Retail,$250M-$1B,2995,CA,Microsoft Dynamics 365,true,false
+ACCT-0486,Prairiepoint Manufacturing,Healthcare,$250M-$1B,1981,MA,NetSuite,false,false
+ACCT-0487,Blueworks Supply Co,Healthcare,$250M-$1B,2644,AZ,NetSuite,false,false
+ACCT-0488,Bluefield Engineering,Manufacturing,$50M-$250M,536,GA,SAP Business One,false,false
+ACCT-0489,Prairiestone Supply Co,Manufacturing,$250M-$1B,1366,NJ,QuickBooks Online,true,false
+ACCT-0490,Brightridge Health Partners,Wholesale & Distribution,$10M-$50M,65,PA,NetSuite,true,false
+ACCT-0491,Oaklinepath Distribution,Manufacturing,$50M-$250M,825,NJ,Microsoft Dynamics 365,false,false
+ACCT-0492,Clearwaterridge Manufacturing,Professional Services,$250M-$1B,2584,MA,NetSuite,true,false
+ACCT-0493,Lakesidefield Industries,Construction,$250M-$1B,4043,AZ,Sage Intacct,false,false
+ACCT-0494,Clearwaterbridge Labs,Wholesale & Distribution,$50M-$250M,833,CA,QuickBooks Online,false,false
+ACCT-0495,Pioneerbridge Advisors,Technology,$50M-$250M,352,PA,Microsoft Dynamics 365,false,false
+ACCT-0496,Westgatefield Logistics,Manufacturing,$50M-$250M,717,PA,QuickBooks Online,true,false
+ACCT-0497,Harborstone Manufacturing,Healthcare,$10M-$50M,121,NY,QuickBooks Online,false,false
+ACCT-0498,Beaconline Systems,Technology,$10M-$50M,196,MA,NetSuite,true,false
+ACCT-0499,Unionfield Health Partners,Professional Services,$50M-$250M,770,WA,NetSuite,true,false
+ACCT-0500,Westgategate Advisors,Construction,$10M-$50M,193,FL,Sage Intacct,true,false
+ACCT-0501,Lakesidebridge Logistics,Retail,$250M-$1B,2761,GA,Sage Intacct,false,false
+ACCT-0502,Pioneerbridge Industries,Professional Services,$50M-$250M,977,NC,NetSuite,true,false
+ACCT-0503,Brightworks Labs,Wholesale & Distribution,$50M-$250M,308,NY,SAP Business One,true,false
+ACCT-0504,Highlandline Health Partners,Manufacturing,$10M-$50M,98,CA,SAP Business One,true,false
+ACCT-0505,Meridianpoint Industries,Retail,$10M-$50M,156,NY,SAP Business One,false,false
+ACCT-0506,Oaklinestone Manufacturing,Construction,$50M-$250M,1179,WA,NetSuite,true,false
+ACCT-0507,Keystonefield Labs,Retail,$250M-$1B,3296,MA,SAP Business One,false,false
+ACCT-0508,Harborgate Engineering,Manufacturing,$50M-$250M,306,NJ,Sage Intacct,false,false
+ACCT-0509,Lakesidecrest Consulting Group,Construction,$50M-$250M,1137,AZ,Microsoft Dynamics 365,true,false
+ACCT-0510,Lakesideworks Manufacturing,Manufacturing,$250M-$1B,2590,CO,Microsoft Dynamics 365,false,false
+ACCT-0511,Coppercrest Supply Co,Construction,$50M-$250M,847,FL,NetSuite,false,false
+ACCT-0512,Copperbridge Advisors,Wholesale & Distribution,$10M-$50M,216,TX,QuickBooks Online,false,false
+ACCT-0513,Lakesidestone Supply Co,Construction,$50M-$250M,784,NC,Microsoft Dynamics 365,false,false
+ACCT-0514,Riverbendworks Consulting Group,Construction,$250M-$1B,1336,NY,QuickBooks Online,true,false
+ACCT-0515,Bluepoint Builders,Manufacturing,$50M-$250M,493,NC,NetSuite,false,false
+ACCT-0516,Highlandworks Systems,Professional Services,$50M-$250M,567,PA,QuickBooks Online,false,false
+ACCT-0517,Clearwatercrest Systems,Construction,$50M-$250M,598,FL,QuickBooks Online,false,false
+ACCT-0518,Highlandworks Industries,Technology,$50M-$250M,596,NJ,Other,false,false
+ACCT-0519,Lakesidecrest Logistics,Healthcare,$10M-$50M,101,CO,SAP Business One,false,false
+ACCT-0520,Meridianpoint Advisors,Wholesale & Distribution,$50M-$250M,576,OH,Sage Intacct,false,false
+ACCT-0521,Ironpoint Builders,Wholesale & Distribution,$50M-$250M,276,TX,Other,false,false
+ACCT-0522,Summitline Logistics,Construction,$50M-$250M,470,TX,NetSuite,false,false
+ACCT-0523,Northbridge Manufacturing,Manufacturing,$50M-$250M,240,TX,SAP Business One,false,false
+ACCT-0524,Brightgate Advisors,Retail,$10M-$50M,196,WA,QuickBooks Online,false,false
+ACCT-0525,Lakesidecrest Systems,Construction,$250M-$1B,1179,OH,QuickBooks Online,true,false
+ACCT-0526,Riverbendline Health Partners,Manufacturing,$10M-$50M,219,GA,QuickBooks Online,true,false
+ACCT-0527,Westgatecrest Manufacturing,Retail,$250M-$1B,3980,NC,NetSuite,false,false
+ACCT-0528,Westgategate Systems,Wholesale & Distribution,$250M-$1B,2214,NJ,SAP Business One,false,false
+ACCT-0529,Unionworks Logistics,Retail,$250M-$1B,4055,GA,QuickBooks Online,true,false
+ACCT-0530,Pioneerfield Builders,Manufacturing,$250M-$1B,2212,WA,NetSuite,true,false
+ACCT-0531,Riverbendcrest Logistics,Manufacturing,$50M-$250M,886,NC,Microsoft Dynamics 365,false,false
+ACCT-0532,Atlasstone Systems,Wholesale & Distribution,$50M-$250M,1099,AZ,Microsoft Dynamics 365,false,false
+ACCT-0533,Graniteridge Logistics,Healthcare,$50M-$250M,238,CA,NetSuite,true,false
+ACCT-0534,Prairiecrest Health Partners,Manufacturing,$50M-$250M,1132,IL,QuickBooks Online,true,false
+ACCT-0535,Beaconline Supply Co,Wholesale & Distribution,$10M-$50M,80,WA,NetSuite,false,false
+ACCT-0536,Granitegate Logistics,Professional Services,$50M-$250M,566,WA,NetSuite,false,false
+ACCT-0537,Copperpath Consulting Group,Wholesale & Distribution,$10M-$50M,57,MA,NetSuite,true,false
+ACCT-0538,Unionline Labs,Wholesale & Distribution,$10M-$50M,86,IL,Sage Intacct,false,false
+ACCT-0539,Unionbridge Logistics,Construction,$50M-$250M,344,CA,NetSuite,false,false
+ACCT-0540,Beaconcrest Labs,Healthcare,$250M-$1B,1760,AZ,Microsoft Dynamics 365,false,false
+ACCT-0541,Ironline Advisors,Manufacturing,$250M-$1B,1559,TX,NetSuite,false,false
+ACCT-0542,Ironstone Engineering,Construction,$50M-$250M,1072,NY,SAP Business One,false,false
+ACCT-0543,Riverbendstone Builders,Healthcare,$50M-$250M,300,FL,Microsoft Dynamics 365,true,false
+ACCT-0544,Lakesidebridge Engineering,Manufacturing,$50M-$250M,302,IL,Sage Intacct,false,false
+ACCT-0545,Lakesidepath Manufacturing,Wholesale & Distribution,$10M-$50M,128,AZ,Sage Intacct,false,false
+ACCT-0546,Redwoodbridge Consulting Group,Healthcare,$10M-$50M,113,OH,NetSuite,false,false
+ACCT-0547,Atlasworks Supply Co,Wholesale & Distribution,$10M-$50M,134,MA,QuickBooks Online,true,false
+ACCT-0548,Copperpath Labs,Wholesale & Distribution,$10M-$50M,205,CA,Microsoft Dynamics 365,false,false
+ACCT-0549,Cedarcrest Systems,Wholesale & Distribution,$10M-$50M,69,AZ,NetSuite,true,false
+ACCT-0550,Oaklineline Distribution,Professional Services,$10M-$50M,191,IL,QuickBooks Online,false,false
+ACCT-0551,Pioneerridge Supply Co,Retail,$10M-$50M,200,AZ,SAP Business One,true,false
+ACCT-0552,Keystonecrest Health Partners,Construction,$10M-$50M,52,NC,NetSuite,false,false
+ACCT-0553,Westgateridge Labs,Manufacturing,$10M-$50M,95,CO,SAP Business One,false,false
+ACCT-0554,Cedarpath Supply Co,Retail,$10M-$50M,174,FL,NetSuite,true,false
+ACCT-0555,Bluepoint Labs,Healthcare,$250M-$1B,2489,MA,SAP Business One,false,false
+ACCT-0556,Highlandcrest Advisors,Retail,$250M-$1B,3938,IL,Sage Intacct,false,false
+ACCT-0557,Oaklinestone Labs,Manufacturing,$10M-$50M,182,NJ,QuickBooks Online,false,false
+ACCT-0558,Northcrest Engineering,Manufacturing,$50M-$250M,278,WA,Sage Intacct,true,false
+ACCT-0559,Harborridge Supply Co,Retail,$50M-$250M,321,NC,NetSuite,false,false
+ACCT-0560,Unionstone Manufacturing,Technology,$50M-$250M,415,CO,NetSuite,false,false
+ACCT-0561,Cedargate Distribution,Wholesale & Distribution,$10M-$50M,181,NY,SAP Business One,true,false
+ACCT-0562,Harborworks Engineering,Technology,$50M-$250M,813,CO,Sage Intacct,false,false
+ACCT-0563,Ironpath Distribution,Retail,$250M-$1B,2872,TX,NetSuite,true,false
+ACCT-0564,Cedargate Engineering,Construction,$50M-$250M,470,TX,Microsoft Dynamics 365,true,false
+ACCT-0565,Meridiangate Distribution,Technology,$10M-$50M,148,TX,NetSuite,true,false
+ACCT-0566,Pioneergate Distribution,Retail,$10M-$50M,186,WA,Microsoft Dynamics 365,true,false
+ACCT-0567,Clearwaterridge Distribution,Professional Services,$50M-$250M,1118,OH,Sage Intacct,true,false
+ACCT-0568,Atlasbridge Logistics,Technology,$50M-$250M,434,OH,QuickBooks Online,false,false
+ACCT-0569,Redwoodgate Industries,Retail,$250M-$1B,3753,CO,NetSuite,true,false
+ACCT-0570,Coppergate Labs,Manufacturing,$50M-$250M,205,AZ,Microsoft Dynamics 365,true,false
+ACCT-0571,Keystonestone Labs,Wholesale & Distribution,$10M-$50M,102,AZ,Microsoft Dynamics 365,true,false
+ACCT-0572,Summitridge Consulting Group,Healthcare,$50M-$250M,467,PA,QuickBooks Online,false,false
+ACCT-0573,Beaconpoint Consulting Group,Construction,$50M-$250M,694,TX,QuickBooks Online,false,false
+ACCT-0574,Prairieworks Distribution,Wholesale & Distribution,$10M-$50M,151,AZ,NetSuite,false,false
+ACCT-0575,Summitpoint Manufacturing,Manufacturing,$50M-$250M,302,FL,QuickBooks Online,false,false
+ACCT-0576,Riverbendgate Industries,Professional Services,$50M-$250M,364,NJ,Other,true,false
+ACCT-0577,Graniteridge Manufacturing,Technology,$250M-$1B,1261,CA,NetSuite,true,false
+ACCT-0578,Westgatefield Industries,Technology,$10M-$50M,207,NC,QuickBooks Online,false,false
+ACCT-0579,Westgatefield Engineering,Technology,$50M-$250M,210,FL,SAP Business One,false,false
+ACCT-0580,Keystoneworks Systems,Construction,$10M-$50M,180,WA,Sage Intacct,false,false
+ACCT-0581,Clearwaterfield Supply Co,Professional Services,$10M-$50M,90,CA,Other,false,false
+ACCT-0582,Oaklinepoint Labs,Wholesale & Distribution,$10M-$50M,67,CA,QuickBooks Online,false,false
+ACCT-0583,Beacongate Logistics,Technology,$10M-$50M,179,CA,Sage Intacct,true,false
+ACCT-0584,Prairiepath Consulting Group,Retail,$50M-$250M,449,OH,QuickBooks Online,false,false
+ACCT-0585,Clearwaterpath Distribution,Technology,$250M-$1B,1376,IL,NetSuite,false,false
+ACCT-0586,Silverpoint Supply Co,Healthcare,$50M-$250M,728,WA,NetSuite,false,false
+ACCT-0587,Silverworks Health Partners,Wholesale & Distribution,$10M-$50M,137,CA,Sage Intacct,true,false
+ACCT-0588,Lakesidebridge Systems,Healthcare,$250M-$1B,1648,AZ,Sage Intacct,false,false
+ACCT-0589,Pioneerpoint Systems,Retail,$50M-$250M,471,FL,NetSuite,false,false
+ACCT-0590,Westgatebridge Engineering,Professional Services,$50M-$250M,1142,CA,Sage Intacct,false,false
+ACCT-0591,Westgatefield Labs,Retail,$250M-$1B,2875,GA,Sage Intacct,true,false
+ACCT-0592,Oaklineworks Manufacturing,Retail,$10M-$50M,180,IL,QuickBooks Online,false,false
+ACCT-0593,Cedarfield Labs,Technology,$50M-$250M,1162,WA,NetSuite,true,false
+ACCT-0594,Summitcrest Manufacturing,Professional Services,$10M-$50M,53,NC,NetSuite,false,false
+ACCT-0595,Lakesidebridge Distribution,Manufacturing,$250M-$1B,3146,IL,NetSuite,true,false
+ACCT-0596,Westgatebridge Supply Co,Technology,$10M-$50M,103,NJ,Microsoft Dynamics 365,true,false
+ACCT-0597,Unionworks Systems,Retail,$50M-$250M,590,FL,NetSuite,false,false
+ACCT-0598,Cedarpath Logistics,Technology,$10M-$50M,84,PA,Sage Intacct,true,false
+ACCT-0599,Lakesidepath Builders,Retail,$10M-$50M,195,NY,QuickBooks Online,false,false
+ACCT-0600,Pioneerstone Manufacturing,Healthcare,$50M-$250M,569,GA,Sage Intacct,false,false

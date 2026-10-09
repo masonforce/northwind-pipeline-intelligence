@@ -1,0 +1,77 @@
+  ok    SELECT `Close Reason`, MEASURE(`Lost Opportunities`) AS lost, MEASURE(`Lost Volume`) AS lo
+        Close Reason | lost | lost_volume
+        ERP integration gap | 28 | 272863000
+        Chose competitor | 15 | 94234000
+        Pricing / rewards | 11 | 115440000
+        Timing | 7 | 80350000
+        No decision | 6 | 25120000
+  ok    SELECT `ERP System`, MEASURE(`Lost Opportunities`) AS erp_gap_losses, MEASURE(`Lost Volume
+        ERP System | erp_gap_losses | lost_volume
+        NetSuite | 11 | 67875000
+        QuickBooks Online | 6 | 42283000
+        Sage Intacct | 5 | 70731000
+        SAP Business One | 3 | 34593000
+        Microsoft Dynamics 365 | 3 | 57381000
+  ok    SELECT `Lead Source`, MEASURE(`Win Rate`) AS win_rate, MEASURE(`Opportunities`) AS opps FR
+        Lead Source | win_rate | opps
+        Partner | 13.33333333333333 | 119
+        Paid Search | 16.41791044776119 | 84
+        Outbound | 22.64150943396226 | 75
+        Event | 28.16901408450704 | 96
+        Inbound Web | 32.86384976525822 | 279
+        Referral | 43.37349397590361 | 122
+  ok    SELECT `Created Date`, MEASURE(`Leads`) AS leads FROM fe_demo_catalog.northwind_pi
+        Created Date | leads
+        2026-09-21 | 18
+        2026-09-22 | 13
+        2026-09-23 | 16
+        2026-09-24 | 14
+        2026-09-25 | 12
+        2026-09-26 | 5
+        2026-09-27 | 5
+        2026-09-28 | 15
+        2026-09-29 | 14
+        2026-09-30 | 120
+        2026-10-01 | 80
+  ok    SELECT `Campaign`, MEASURE(`Responses`) AS responses, MEASURE(`Attributed Pipeline Volume`
+        Campaign | responses | pipeline | per_response
+        Northwind Commercial Card Launch Webinar | 1080 | 730000 | 675.925925925926
+        Paid Search - Expense Management | 480 | 201851000 | 420522.9166666667
+        Email Nurture - Corporate Card Upgrade | 360 | 792943000 | 2202619.4444444445
+        LinkedIn - Spend Control | 300 | 9202000 | 30673.333333333332
+        Paid Search - AP Automation | 240 | 57348000 | 238950.0
+        Bill Pay Beta Invite | 216 | 341387000 | 1580495.3703703703
+        Middle Market Summit 2026 | 180 | 69337000 | 385205.55555555556
+        NetSuite Partner Co-Marketing | 144 | 285639000 | 1983604.1666666667
+        CFO Roundtable Series | 96 | 275332000 | 2868041.6666666665
+        Referral Program Q3 | 84 | 270924000 | 3225285.714285714
+  ok    SELECT `Theme`, MEASURE(`Calls on Lost Deals`) AS lost_calls, MEASURE(`Calls`) AS calls FR
+        Theme | lost_calls | calls
+        ERP integration | 29 | 49
+        Pricing & rewards | 19 | 31
+        Vendor card acceptance | 7 | 27
+        Approval workflows | 6 | 16
+        Onboarding & implementation | 4 | 12
+        Expense policy controls | 4 | 21
+        Bill Pay interest | 1 | 8
+  ok    SELECT `Stage`, MEASURE(`Average Days In Stage`) AS avg_days, MEASURE(`Opportunities`) AS 
+        Stage | avg_days | opps | stalled | stall_rate
+        Solution | 28.398373983739837 | 123 | 30 | 24.39024390243902
+        Discovery | 22.993788819875775 | 161 | 38 | 23.60248447204969
+        Negotiation | 14.555555555555555 | 45 | 9 | 20.00000000000000
+        Proposal | 14.55 | 80 | 17 | 21.25000000000000
+  ok    SELECT CASE WHEN `Close Reason` = 'ERP integration gap' OR `ERP System` = 'NetSuite' THEN 
+        cohort | avg_days_in_solution | opps
+        ERP gap or NetSuite | 43.73076923076923 | 52
+        Other | 17.169014084507044 | 71
+  ok    SELECT `Opportunity ID`, `Account ID`, `Account Name`, `ERP System`, `Lead Source`, `Stage
+        Opportunity ID | Account ID | Account Name | ERP System | Lead Source | Stage | Close Reason | lost_volume
+        OPP-01042 | ACCT-0002 | Riverbendstone Distribution | NetSuite | Partner | Closed Lost | ERP integration gap | 9400000
+  ok    SELECT `Stage`, MEASURE(`Max Days In Stage`) AS days_in_stage, MEASURE(`Stalled Opportunit
+        Stage | days_in_stage | stalled
+        Discovery | 21 | 0
+        Solution | 88 | 1
+  ok    SELECT MEASURE(`Lost Volume`) AS erp_lost_volume, MEASURE(`Lost Opportunities`) AS erp_los
+        erp_lost_volume | erp_lost_opps
+        272863000 | 28
+verify.sql: 0 failed

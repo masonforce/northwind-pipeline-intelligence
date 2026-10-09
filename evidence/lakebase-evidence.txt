@@ -1,0 +1,35 @@
+# Lakebase evidence (northwind-pi / northwind db) — run 2026-10-09T20:47Z
+
+## Serving table: synced deal records (point-lookup store)
+ deals_synced 
+--------------
+          775
+(1 row)
+
+## Point lookup for one deal (what the app's deal card runs):
+ opportunity_id |        account_name         | erp_system |    stage    | projected_annual_volume | is_stalled 
+----------------+-----------------------------+------------+-------------+-------------------------+------------
+ OPP-01042      | Riverbendstone Distribution | NetSuite   | Closed Lost |                 9400000 | f
+(1 row)
+
+## Write-back tables (created by lakebase.sql):
+                       List of relations
+ Schema |      Name       | Type  |           Owner            
+--------+-----------------+-------+----------------------------
+ public | saved_scenarios | table | mason.force@databricks.com
+(1 row)
+
+\dt: extra argument "public.deal_followups" ignored
+## Write-back roundtrip: insert a what-if scenario + a flagged deal, then read them back:
+INSERT 0 1
+INSERT 0 1
+          label          | recovery_pct | recovered 
+-------------------------+--------------+-----------
+ ERP-gap recovery at 20% |           20 |  78000000
+(1 row)
+
+ opportunity_id |  stage   | days_in_stage | status  |                 note                  
+----------------+----------+---------------+---------+---------------------------------------
+ OPP-01042      | Solution |            55 | Flagged | controller needs native NetSuite sync
+(1 row)
+

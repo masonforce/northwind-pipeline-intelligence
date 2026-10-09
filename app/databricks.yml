@@ -1,0 +1,36 @@
+# Northwind Pipeline Intelligence: Streamlit app with its resources attached declaratively.
+# Resource `name` keys must match the valueFrom keys in app.yaml.
+bundle:
+  name: northwind-pi
+
+# Filled by ../rebuild.sh from the Genie deploy step (or pass --var on deploy).
+variables:
+  warehouse_id: {default: "6c8615d2e291c37f"}
+  genie_pipeline_id: {default: ""}
+
+resources:
+  apps:
+    northwind_pipeline_intel:
+      name: northwind-pi
+      description: "Northwind (Northwind Commercial Card) Pipeline Intelligence: where the funnel stalls, drill-downs, driver insights, and the Genie agent, on the governed Salesforce semantic layer."
+      source_code_path: .
+      resources:
+        - name: sql-warehouse
+          sql_warehouse: {id: "${var.warehouse_id}", permission: CAN_USE}
+        - name: genie-pipeline
+          genie_space: {name: "Northwind Pipeline Intelligence", space_id: "${var.genie_pipeline_id}", permission: CAN_RUN}
+        - name: lakebase
+          postgres:
+            branch: "projects/northwind-pi/branches/production"
+            database: "projects/northwind-pi/branches/production/databases/northwind"
+            permission: CAN_CONNECT_AND_CREATE
+        - name: vol-call-transcripts
+          uc_securable: {securable_full_name: "fe_demo_catalog.northwind_pipeline.call_transcripts", securable_type: VOLUME, permission: READ_VOLUME}
+
+targets:
+  fevm:
+    default: true
+    workspace:
+      host: https://example-workspace.cloud.databricks.com
+      profile: example-workspace
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/fevm

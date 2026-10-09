@@ -1,0 +1,303 @@
+
+==> 1/9 Generate synthetic data, connector tables and transcripts
+accounts=600 leads=3436 opps=775 calls=270 responses=3180
+user=8 account=600 lead=3436 opportunity=775 opportunity_history=2781 campaign=10 campaign_member=3180
+call_transcripts 270 files
+
+==> 2/9 Schema and volumes
+  ok    CREATE SCHEMA IF NOT EXISTS fe_demo_catalog.northwind_pipeline COMMENT 'Northwind 
+  ok    CREATE VOLUME IF NOT EXISTS fe_demo_catalog.northwind_pipeline.landing_sfdc COMMEN
+  ok    CREATE VOLUME IF NOT EXISTS fe_demo_catalog.northwind_pipeline.landing COMMENT 'Ra
+  ok    CREATE VOLUME IF NOT EXISTS fe_demo_catalog.northwind_pipeline.call_transcripts CO
+deploy.sql: 0 failed
+
+==> 3/9 Upload connector tables, Outreach export and transcripts
+  uploaded 7 connector files and 271 transcripts
+
+==> 4/9 Lakeflow pipeline (full refresh)
+Uploading bundle files to /Workspace/Users/mason.force@databricks.com/.bundle/northwind_pipeline_intel/fevm/files...
+Files: 2 uploaded, 0 deleted
+Resources: 0 created, 0 changed, 0 deleted, 1 unchanged
+Update URL: https://example-workspace.cloud.databricks.com/#joblist/pipelines/46e55710-2124-4686-96de-839daf56415b/updates/14d7df2c-9de7-40d1-83fd-8e1340aa76f7
+
+2026-10-09T20:37:14.829Z update_progress INFO "Update 14d7df is WAITING_FOR_RESOURCES."
+2026-10-09T20:37:23.498Z update_progress INFO "Update 14d7df is INITIALIZING."
+2026-10-09T20:37:53.181Z update_progress INFO "Update 14d7df is RESETTING."
+2026-10-09T20:37:56.677Z update_progress INFO "Update 14d7df is SETTING_UP_TABLES."
+2026-10-09T20:38:06.096Z update_progress INFO "Update 14d7df is RUNNING."
+2026-10-09T20:38:06.108Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign_member' is QUEUED."
+2026-10-09T20:38:06.112Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_outreach_calls' is QUEUED."
+2026-10-09T20:38:06.115Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_campaign' is QUEUED."
+2026-10-09T20:38:06.116Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity_history' is QUEUED."
+2026-10-09T20:38:06.117Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_documents_parsed' is QUEUED."
+2026-10-09T20:38:06.119Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunities' is QUEUED."
+2026-10-09T20:38:06.120Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaign_responses' is QUEUED."
+2026-10-09T20:38:06.121Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunities' is QUEUED."
+2026-10-09T20:38:06.122Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunity_history' is QUEUED."
+2026-10-09T20:38:06.123Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_lead' is QUEUED."
+2026-10-09T20:38:06.124Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity' is QUEUED."
+2026-10-09T20:38:06.125Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_documents' is QUEUED."
+2026-10-09T20:38:06.126Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_user' is QUEUED."
+2026-10-09T20:38:06.127Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_account' is QUEUED."
+2026-10-09T20:38:06.128Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_call_signals' is QUEUED."
+2026-10-09T20:38:06.129Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign' is QUEUED."
+2026-10-09T20:38:06.130Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaigns' is QUEUED."
+2026-10-09T20:38:06.131Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_accounts' is QUEUED."
+2026-10-09T20:38:06.132Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunity_stage' is QUEUED."
+2026-10-09T20:38:06.133Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_leads' is QUEUED."
+2026-10-09T20:38:06.134Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_leads' is QUEUED."
+2026-10-09T20:38:06.135Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_call_signals' is QUEUED."
+2026-10-09T20:38:06.136Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_campaign_responses' is QUEUED."
+2026-10-09T20:38:06.137Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_account' is QUEUED."
+2026-10-09T20:38:06.326Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_lead' is STARTING."
+2026-10-09T20:38:12.267Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_lead' is RUNNING."
+2026-10-09T20:38:13.007Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_outreach_calls' is STARTING."
+2026-10-09T20:38:13.565Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_outreach_calls' is RUNNING."
+2026-10-09T20:38:13.994Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity' is STARTING."
+2026-10-09T20:38:14.552Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity' is RUNNING."
+2026-10-09T20:38:14.957Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_account' is STARTING."
+2026-10-09T20:38:15.487Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_account' is RUNNING."
+2026-10-09T20:38:15.885Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign_member' is STARTING."
+2026-10-09T20:38:16.599Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign_member' is RUNNING."
+2026-10-09T20:38:16.780Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign' is STARTING."
+2026-10-09T20:38:17.428Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign' is RUNNING."
+2026-10-09T20:38:17.600Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_user' is STARTING."
+2026-10-09T20:38:18.226Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_user' is RUNNING."
+2026-10-09T20:38:18.431Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity_history' is STARTING."
+2026-10-09T20:38:19.182Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity_history' is RUNNING."
+2026-10-09T20:38:19.223Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_documents_parsed' is PLANNING."
+2026-10-09T20:38:19.509Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_lead'."
+2026-10-09T20:38:19.621Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_outreach_calls'."
+2026-10-09T20:38:19.623Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_documents_parsed' is STARTING."
+2026-10-09T20:38:19.637Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity'."
+2026-10-09T20:38:19.655Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity' has COMPLETED."
+2026-10-09T20:38:19.666Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_lead' has COMPLETED."
+2026-10-09T20:38:19.683Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_outreach_calls' has COMPLETED."
+2026-10-09T20:38:19.722Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_documents_parsed' is RUNNING."
+2026-10-09T20:38:20.347Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_account'."
+2026-10-09T20:38:20.436Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_account' has COMPLETED."
+2026-10-09T20:38:21.615Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign_member'."
+2026-10-09T20:38:21.705Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign_member' has COMPLETED."
+2026-10-09T20:38:21.737Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_call_signals' is PLANNING."
+2026-10-09T20:38:21.739Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_accounts' is PLANNING."
+2026-10-09T20:38:21.741Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_leads' is PLANNING."
+2026-10-09T20:38:21.872Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign'."
+2026-10-09T20:38:21.955Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_campaign' has COMPLETED."
+2026-10-09T20:38:22.889Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_leads' is STARTING."
+2026-10-09T20:38:22.893Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_accounts' is STARTING."
+2026-10-09T20:38:22.939Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_accounts' is RUNNING."
+2026-10-09T20:38:23.013Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_leads' is RUNNING."
+2026-10-09T20:38:23.284Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_user'."
+2026-10-09T20:38:23.316Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_call_signals' is STARTING."
+2026-10-09T20:38:23.405Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_call_signals' is RUNNING."
+2026-10-09T20:38:23.503Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_user' has COMPLETED."
+2026-10-09T20:38:24.510Z flow_progress   INFO "Completed a streaming update of 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity_history'."
+2026-10-09T20:38:24.632Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.bronze_sf_opportunity_history' has COMPLETED."
+2026-10-09T20:38:25.434Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunities' is PLANNING."
+2026-10-09T20:38:25.440Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaigns' is PLANNING."
+2026-10-09T20:38:25.448Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaign_responses' is PLANNING."
+2026-10-09T20:38:25.878Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaign_responses' is STARTING."
+2026-10-09T20:38:25.939Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaigns' is STARTING."
+2026-10-09T20:38:25.956Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaigns' is RUNNING."
+2026-10-09T20:38:25.969Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaign_responses' is RUNNING."
+2026-10-09T20:38:26.205Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunities' is STARTING."
+2026-10-09T20:38:26.278Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunities' is RUNNING."
+2026-10-09T20:38:28.029Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_leads' has COMPLETED."
+2026-10-09T20:38:28.137Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_accounts' has COMPLETED."
+2026-10-09T20:38:28.264Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_account' is PLANNING."
+2026-10-09T20:38:28.902Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_account' is STARTING."
+2026-10-09T20:38:28.922Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_account' is RUNNING."
+2026-10-09T20:38:29.100Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaigns' has COMPLETED."
+2026-10-09T20:38:29.926Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_campaign' is PLANNING."
+2026-10-09T20:38:30.350Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_campaign' is STARTING."
+2026-10-09T20:38:30.365Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_campaign' is RUNNING."
+2026-10-09T20:38:30.574Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunities' has COMPLETED."
+2026-10-09T20:38:30.699Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_campaign_responses' has COMPLETED."
+2026-10-09T20:38:31.366Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_leads' is PLANNING."
+2026-10-09T20:38:31.367Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunities' is PLANNING."
+2026-10-09T20:38:31.369Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunity_history' is PLANNING."
+2026-10-09T20:38:31.785Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunity_history' is STARTING."
+2026-10-09T20:38:31.815Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunities' is STARTING."
+2026-10-09T20:38:31.832Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunities' is RUNNING."
+2026-10-09T20:38:31.855Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunity_history' is RUNNING."
+2026-10-09T20:38:31.889Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_leads' is STARTING."
+2026-10-09T20:38:31.925Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_leads' is RUNNING."
+2026-10-09T20:38:32.027Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_account' has COMPLETED."
+2026-10-09T20:38:33.582Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_dim_campaign' has COMPLETED."
+2026-10-09T20:38:34.523Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_opportunity_history' has COMPLETED."
+2026-10-09T20:38:34.546Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_leads' has COMPLETED."
+2026-10-09T20:38:34.588Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunities' has COMPLETED."
+2026-10-09T20:38:34.930Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_campaign_responses' is PLANNING."
+2026-10-09T20:38:34.932Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunity_stage' is PLANNING."
+2026-10-09T20:38:35.246Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunity_stage' is STARTING."
+2026-10-09T20:38:35.279Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunity_stage' is RUNNING."
+2026-10-09T20:38:35.454Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_campaign_responses' is STARTING."
+2026-10-09T20:38:35.493Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_campaign_responses' is RUNNING."
+2026-10-09T20:38:38.088Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_campaign_responses' has COMPLETED."
+2026-10-09T20:38:38.141Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_opportunity_stage' has COMPLETED."
+2026-10-09T20:40:38.168Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_documents_parsed' has COMPLETED."
+2026-10-09T20:40:38.565Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_documents' is PLANNING."
+2026-10-09T20:40:39.126Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_documents' is STARTING."
+2026-10-09T20:40:39.145Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_documents' is RUNNING."
+2026-10-09T20:40:41.856Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_documents' has COMPLETED."
+2026-10-09T20:41:14.264Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.silver_call_signals' has COMPLETED."
+2026-10-09T20:41:14.269Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_call_signals' is PLANNING."
+2026-10-09T20:41:14.574Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_call_signals' is STARTING."
+2026-10-09T20:41:14.597Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_call_signals' is RUNNING."
+2026-10-09T20:41:16.760Z flow_progress   INFO "Flow 'fe_demo_catalog.northwind_pipeline.gold_fact_call_signals' has COMPLETED."
+2026-10-09T20:41:16.793Z update_progress INFO "Update 14d7df is COMPLETED."
+Update ID: 14d7df2c-9de7-40d1-83fd-8e1340aa76f7
+
+==> 5/9 Metric views, functions and verification
+  ok    CREATE OR REPLACE VIEW fe_demo_catalog.northwind_pipeline.pipeline_opportunity_met
+  ok    CREATE OR REPLACE VIEW fe_demo_catalog.northwind_pipeline.funnel_stage_metrics WIT
+  ok    CREATE OR REPLACE VIEW fe_demo_catalog.northwind_pipeline.demand_inbound_lead_metr
+  ok    CREATE OR REPLACE VIEW fe_demo_catalog.northwind_pipeline.signal_sales_call_metric
+  ok    CREATE OR REPLACE VIEW fe_demo_catalog.northwind_pipeline.marketing_campaign_metri
+  ok    ALTER VIEW fe_demo_catalog.northwind_pipeline.pipeline_opportunity_metrics SET TAG
+  ok    ALTER VIEW fe_demo_catalog.northwind_pipeline.funnel_stage_metrics SET TAGS ('sema
+  ok    ALTER VIEW fe_demo_catalog.northwind_pipeline.demand_inbound_lead_metrics SET TAGS
+  ok    ALTER VIEW fe_demo_catalog.northwind_pipeline.signal_sales_call_metrics SET TAGS (
+  ok    ALTER VIEW fe_demo_catalog.northwind_pipeline.marketing_campaign_metrics SET TAGS 
+deploy_metric_views.sql: 0 failed
+  ok    CREATE OR REPLACE FUNCTION fe_demo_catalog.northwind_pipeline.northwind_documents(
+  ok    CREATE OR REPLACE FUNCTION fe_demo_catalog.northwind_pipeline.northwind_search_doc
+deploy_functions.sql: 0 failed
+  ok    SELECT `Close Reason`, MEASURE(`Lost Opportunities`) AS lost, MEASURE(`Lost Volume`) AS lo
+        Close Reason | lost | lost_volume
+        ERP integration gap | 28 | 272863000
+        Chose competitor | 15 | 94234000
+        Pricing / rewards | 11 | 115440000
+        Timing | 7 | 80350000
+        No decision | 6 | 25120000
+  ok    SELECT `ERP System`, MEASURE(`Lost Opportunities`) AS erp_gap_losses, MEASURE(`Lost Volume
+        ERP System | erp_gap_losses | lost_volume
+        NetSuite | 11 | 67875000
+        QuickBooks Online | 6 | 42283000
+        Sage Intacct | 5 | 70731000
+        SAP Business One | 3 | 34593000
+        Microsoft Dynamics 365 | 3 | 57381000
+  ok    SELECT `Lead Source`, MEASURE(`Win Rate`) AS win_rate, MEASURE(`Opportunities`) AS opps FR
+        Lead Source | win_rate | opps
+        Partner | 13.33333333333333 | 119
+        Paid Search | 16.41791044776119 | 84
+        Outbound | 22.64150943396226 | 75
+        Event | 28.16901408450704 | 96
+        Inbound Web | 32.86384976525822 | 279
+        Referral | 43.37349397590361 | 122
+  ok    SELECT `Created Date`, MEASURE(`Leads`) AS leads FROM fe_demo_catalog.northwind_pi
+        Created Date | leads
+        2026-09-21 | 18
+        2026-09-22 | 13
+        2026-09-23 | 16
+        2026-09-24 | 14
+        2026-09-25 | 12
+        2026-09-26 | 5
+        2026-09-27 | 5
+        2026-09-28 | 15
+        2026-09-29 | 14
+        2026-09-30 | 120
+        2026-10-01 | 80
+  ok    SELECT `Campaign`, MEASURE(`Responses`) AS responses, MEASURE(`Attributed Pipeline Volume`
+        Campaign | responses | pipeline | per_response
+        Northwind Commercial Card Launch Webinar | 1080 | 730000 | 675.925925925926
+        Paid Search - Expense Management | 480 | 201851000 | 420522.9166666667
+        Email Nurture - Corporate Card Upgrade | 360 | 792943000 | 2202619.4444444445
+        LinkedIn - Spend Control | 300 | 9202000 | 30673.333333333332
+        Paid Search - AP Automation | 240 | 57348000 | 238950.0
+        Bill Pay Beta Invite | 216 | 341387000 | 1580495.3703703703
+        Middle Market Summit 2026 | 180 | 69337000 | 385205.55555555556
+        NetSuite Partner Co-Marketing | 144 | 285639000 | 1983604.1666666667
+        CFO Roundtable Series | 96 | 275332000 | 2868041.6666666665
+        Referral Program Q3 | 84 | 270924000 | 3225285.714285714
+  ok    SELECT `Theme`, MEASURE(`Calls on Lost Deals`) AS lost_calls, MEASURE(`Calls`) AS calls FR
+        Theme | lost_calls | calls
+        ERP integration | 29 | 49
+        Pricing & rewards | 19 | 31
+        Vendor card acceptance | 7 | 27
+        Approval workflows | 6 | 16
+        Onboarding & implementation | 4 | 12
+        Expense policy controls | 4 | 21
+        Bill Pay interest | 1 | 8
+  ok    SELECT `Stage`, MEASURE(`Average Days In Stage`) AS avg_days, MEASURE(`Opportunities`) AS 
+        Stage | avg_days | opps | stalled | stall_rate
+        Solution | 28.398373983739837 | 123 | 30 | 24.39024390243902
+        Discovery | 22.993788819875775 | 161 | 38 | 23.60248447204969
+        Negotiation | 14.555555555555555 | 45 | 9 | 20.00000000000000
+        Proposal | 14.55 | 80 | 17 | 21.25000000000000
+  ok    SELECT CASE WHEN `Close Reason` = 'ERP integration gap' OR `ERP System` = 'NetSuite' THEN 
+        cohort | avg_days_in_solution | opps
+        ERP gap or NetSuite | 43.73076923076923 | 52
+        Other | 17.169014084507044 | 71
+  ok    SELECT `Opportunity ID`, `Account ID`, `Account Name`, `ERP System`, `Lead Source`, `Stage
+        Opportunity ID | Account ID | Account Name | ERP System | Lead Source | Stage | Close Reason | lost_volume
+        OPP-01042 | ACCT-0002 | Riverbendstone Distribution | NetSuite | Partner | Closed Lost | ERP integration gap | 9400000
+  ok    SELECT `Stage`, MEASURE(`Max Days In Stage`) AS days_in_stage, MEASURE(`Stalled Opportunit
+        Stage | days_in_stage | stalled
+        Discovery | 21 | 0
+        Solution | 88 | 1
+  ok    SELECT MEASURE(`Lost Volume`) AS erp_lost_volume, MEASURE(`Lost Opportunities`) AS erp_los
+        erp_lost_volume | erp_lost_opps
+        272863000 | 28
+verify.sql: 0 failed
+
+==> 6/9 Genie agent
+updated Northwind Pipeline Intelligence: 01f1c37b82b6181c87d91a69126b7494
+  Northwind Pipeline Intelligence 01f1c37b82b6181c87d91a69126b7494
+
+==> 7/9 Lakebase project and database
+  created project
+  endpoint ACTIVE
+  Lakebase host ep-gentle-paper-d1hek207.database.us-west-2.cloud.databricks.com
+
+==> 8/9 Deal serving: gold source table + Lakebase synced table
+  ok    CREATE TABLE IF NOT EXISTS fe_demo_catalog.northwind_pipeline.gold_serving_deals (
+  ok    INSERT OVERWRITE fe_demo_catalog.northwind_pipeline.gold_serving_deals SELECT o.op
+deploy_serving.sql: 0 failed
+  synced 775 deals to Lakebase (deals_online)
+
+==> 9/9 App: deploy, grant UC + Lakebase, start
+Uploading bundle files to /Workspace/Users/mason.force@databricks.com/.bundle/northwind-pi/fevm/files...
+Created apps.northwind_pipeline_intel
+Files: 4 uploaded, 0 deleted
+Resources: 1 created, 0 changed, 0 deleted, 0 unchanged
+  ok    GRANT USE CATALOG ON CATALOG fe_demo_catalog TO `468e34f7-bf51-43ef-930d-a12776b6e
+  ok    GRANT USE SCHEMA, SELECT ON SCHEMA fe_demo_catalog.northwind_pipeline TO `468e34f7
+/tmp/northwind_pi_grants.sql: 0 failed
+GRANT
+GRANT
+  Lakebase write-back tables + deal-serving grant applied for 468e34f7-bf51-43ef-930d-a12776b6ea98
+✓ Getting the status of the app northwind-pi
+✓ App is in UNAVAILABLE state
+✓ App compute is in STOPPED state
+✓ Starting the app northwind-pi
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is starting...
+✓ App is started!
+✓ Preparing source code for new app deployment.
+✓ Preparing source code for new app deployment.
+✓ Installing packages...
+✓ Installing packages...
+✓ App started successfully
+You can access the app at https://northwind-pi-7474650635347343.aws.databricksapps.com
+
+Done.
+  Genie: Northwind Pipeline Intelligence 01f1c37b82b6181c87d91a69126b7494
+  App:   https://northwind-pi-7474650635347343.aws.databricksapps.com
+REBUILD_EXIT=0

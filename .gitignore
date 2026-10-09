@@ -1,0 +1,9 @@
+# Regenerated transcript PDFs (binary). The transcript TEXT is committed in landing/outreach/calls.jsonl.
+docs/
+# Written by deploy_genie_agents.py (transient Genie space id)
+.genie_ids.json
+# Databricks Asset Bundle state
+.databricks/
+**/.databricks/
+__pycache__/
+*.pyc

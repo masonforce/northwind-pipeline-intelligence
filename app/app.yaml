@@ -1,0 +1,16 @@
+command: ["streamlit", "run", "app.py", "--server.port", "8000", "--server.address", "0.0.0.0"]
+
+# Native app resources (see databricks.yml). valueFrom injects each resource's identifier.
+env:
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: "sql-warehouse"
+  - name: GENIE_PIPELINE_ID
+    valueFrom: "genie-pipeline"
+  - name: NORTHWIND_SCHEMA
+    value: "fe_demo_catalog.northwind_pipeline"
+  - name: LAKEBASE_ENDPOINT
+    value: "projects/northwind-pi/branches/production/endpoints/primary"
+  - name: PGDATABASE
+    value: "northwind"
+  - name: DEALS_TABLE
+    value: "northwind_pipeline.deals_online"
