@@ -7,3 +7,6 @@ docs/
 **/.databricks/
 __pycache__/
 *.pyc
+
+# Internal demo walkthrough, kept local (not published)
+DEMO_SCRIPT.md
