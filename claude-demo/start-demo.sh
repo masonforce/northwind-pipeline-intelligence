@@ -16,7 +16,7 @@ export NORTHWIND_DBX_TOKEN="$(databricks auth token -p "$PROFILE" | python3 -c "
 cat > .mcp.json <<JSON
 {
   "mcpServers": {
-    "northwind-piligence": {
+    "northwind-pipeline": {
       "type": "http",
       "url": "$HOST/api/2.0/mcp/genie/$PIPELINE",
       "headers": {"Authorization": "Bearer \${NORTHWIND_DBX_TOKEN}"}

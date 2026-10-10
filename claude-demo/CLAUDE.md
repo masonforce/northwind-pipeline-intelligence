@@ -5,7 +5,7 @@ deals stall, why they are won or lost, and what is driving outcomes. All data is
 in Databricks, sourced from Salesforce through Lakeflow Connect.
 
 ## Which tool to use
-- **Numbers** (pipeline, funnel stall / days in stage, win rate, loss reasons, leads, campaigns, call themes): `northwind-piligence`.
+- **Numbers** (pipeline, funnel stall / days in stage, win rate, loss reasons, leads, campaigns, call themes): `northwind-pipeline`.
 - **What prospects actually said** (call transcripts): `northwind-documents`.
   - `northwind_documents(entity_id)` returns the full transcript text for any OPP-, ACCT- or CALL- ID.
   - `northwind_search_documents(phrase)` searches transcripts by keyword when there's no ID.

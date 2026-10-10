@@ -2,7 +2,7 @@
   "enableAllProjectMcpServers": true,
   "permissions": {
     "allow": [
-      "mcp__northwind-piligence",
+      "mcp__northwind-pipeline",
       "mcp__northwind-documents",
       "mcp__genie-one"
     ]
